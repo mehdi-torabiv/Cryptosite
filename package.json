@@ -1,0 +1,24 @@
+{
+  "name": "crypto",
+  "version": "1.0.0",
+  "description": "My spectacular Nuxt.js project",
+  "author": "nimatorabi",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "aos": "^3.0.0-beta.6",
+    "material-icons": "^0.3.1",
+    "nuxt": "^2.0.0",
+    "vue-feather-icons": "^5.0.0",
+    "vuesax": "^3.11.13"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.0.0"
+  }
+}
