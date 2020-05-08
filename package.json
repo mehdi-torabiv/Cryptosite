@@ -19,6 +19,8 @@
     "vuesax": "^3.11.13"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^1.0.0"
+    "@nuxtjs/tailwindcss": "^1.0.0",
+    "less": "^3.11.1",
+    "less-loader": "^6.1.0"
   }
 }
