@@ -1,5 +1,11 @@
 <template>
-  <nav class="navbar">
+  <nav
+    class="navbar"
+    :class="{
+      stickyClass: scrollPosition < 100,
+      fixedClass: scrollPosition > 100
+    }"
+  >
     <div class="container mx-auto">
       <ul>
         <li>
@@ -36,14 +42,50 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data: function() {
+    return {
+      scrollPosition: null
+    };
+  },
+
+  methods: {
+    updateScroll() {
+      this.scrollPosition = window.scrollY;
+    }
+  },
+
+  mounted() {
+    window.addEventListener("scroll", this.updateScroll);
+  }
+  //destroy() {
+  //window.removeEventListener("scroll", this.updateScroll);
+  //}
+};
 </script>
 
 <style scoped>
 nav {
+  position: fixed;
   width: 100%;
   padding: 25px 0 0;
   z-index: 1;
+}
+.stickyClass {
+  position: sticky;
+}
+.fixedClass {
+  position: fixed;
+  background: rgb(55, 0, 254);
+  background: linear-gradient(
+    3deg,
+    rgba(55, 0, 254, 1) 0%,
+    rgba(130, 68, 217, 1) 91%,
+    rgba(87, 34, 166, 1) 100%
+  );
+  transition: ease-in-out 0.5s;
+  padding-top: 10px;
+  margin-top: auto;
 }
 .navBrand {
   padding: 25px 0;

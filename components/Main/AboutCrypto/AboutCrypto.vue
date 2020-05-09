@@ -1,7 +1,7 @@
 <template>
   <div class="AboutCrypto" id="about">
-    <div class="grid grid-cols-2 gap-4">
-      <div class="text">
+    <div class="md:inline-flex sm:block">
+      <div class="text md:w-1/2">
         <h2 data-aos="fade-up" data-aos-duration="750" data-aos-ease="ease-in">
           بهترین فروشگاه برای خرید ارز دیجیتال
         </h2>
@@ -16,7 +16,7 @@
         </p>
       </div>
       <div
-        class="about-img"
+        class="about-img md:w-1/2"
         data-aos="fade-up"
         data-aos-duration="750"
         data-aos-ease="ease-in"
@@ -24,16 +24,16 @@
         <img src="../../../assets/images/about-2-01.png" alt />
       </div>
     </div>
-    <div class="mt-10 grid grid-cols-2 gap-4">
+    <div class="mt-10 md:inline-flex sm:block">
       <div
-        class="about-img"
+        class="about-img md:w-1/2"
         data-aos="fade-up"
         data-aos-duration="750"
         data-aos-ease="ease-in"
       >
         <img src="../../../assets/images/about-2-02.png" alt />
       </div>
-      <div class="text">
+      <div class="text md:w-1/2">
         <h2 data-aos="fade-up" data-aos-duration="750" data-aos-ease="ease-in">
           استاندارد جدید در پرداخت دیجیتال.
         </h2>

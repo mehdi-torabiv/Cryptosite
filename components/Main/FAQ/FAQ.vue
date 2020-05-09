@@ -116,4 +116,8 @@ export default {};
   margin-bottom: 15px;
   color: black;
 }
+.vs-collapse.margin .vs-collapse-item {
+  background: #ffffff !important;
+  padding-right: 1rem;
+}
 </style>

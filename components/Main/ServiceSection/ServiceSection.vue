@@ -6,7 +6,7 @@
       </h2>
     </div>
     <div
-      class="grid grid-cols-3 gap-8"
+      class="sm:block py-5 md:inline-flex"
       data-aos="fade-up"
       data-aos-duration="750"
       data-aos-ease="ease-in"
@@ -52,7 +52,7 @@
       </div>
     </div>
     <div
-      class="grid grid-cols-3"
+      class="sm:block py-5 md:inline-flex"
       data-aos="fade-up"
       data-aos-duration="750"
       data-aos-ease="ease-in"
