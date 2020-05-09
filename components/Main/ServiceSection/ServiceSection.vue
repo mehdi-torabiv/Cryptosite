@@ -1,40 +1,100 @@
 <template>
-  <div class="services container mx-auto">
+  <div class="services container mx-auto" id="services">
     <div class="sub-title">
-      <h2>چرا باید در سایت ما سرمایه گذاری کنید؟</h2>
+      <h2 data-aos="fade-up" data-aos-duration="750" data-aos-ease="ease-in">
+        چرا باید در سایت ما سرمایه گذاری کنید؟
+      </h2>
     </div>
-    <div class="grid grid-cols-3 gap-8">
+    <div
+      class="grid grid-cols-3 gap-8"
+      data-aos="fade-up"
+      data-aos-duration="750"
+      data-aos-ease="ease-in"
+    >
       <div class="single-items">
-        <img class="mx-auto" src="../../../assets/images/icons/service-01.png" alt />
+        <img
+          class="mx-auto"
+          src="../../../assets/images/icons/service-01.png"
+          alt
+        />
         <h3>کیف پول امن</h3>
-        <p>با توجه به استفاده از قدرت محاسباتی بزرگ ، دستیار بلافاصله راه حل های ارائه داده های کاربر را برای استفاده بیشتر آنها مورد تجزیه و تحلیل قرار می دهد.</p>
+        <p>
+          با توجه به استفاده از قدرت محاسباتی بزرگ ، دستیار بلافاصله راه حل های
+          ارائه داده های کاربر را برای استفاده بیشتر آنها مورد تجزیه و تحلیل
+          قرار می دهد.
+        </p>
       </div>
       <div class="single-items">
-        <img class="mx-auto" src="../../../assets/images/icons/service-01.png" alt />
+        <img
+          class="mx-auto"
+          src="../../../assets/images/icons/service-01.png"
+          alt
+        />
         <h3>کیف پول امن</h3>
-        <p>با توجه به استفاده از قدرت محاسباتی بزرگ ، دستیار بلافاصله راه حل های ارائه داده های کاربر را برای استفاده بیشتر آنها مورد تجزیه و تحلیل قرار می دهد.</p>
+        <p>
+          با توجه به استفاده از قدرت محاسباتی بزرگ ، دستیار بلافاصله راه حل های
+          ارائه داده های کاربر را برای استفاده بیشتر آنها مورد تجزیه و تحلیل
+          قرار می دهد.
+        </p>
       </div>
       <div class="single-items">
-        <img class="mx-auto" src="../../../assets/images/icons/service-01.png" alt />
+        <img
+          class="mx-auto"
+          src="../../../assets/images/icons/service-01.png"
+          alt
+        />
         <h3>کیف پول امن</h3>
-        <p>با توجه به استفاده از قدرت محاسباتی بزرگ ، دستیار بلافاصله راه حل های ارائه داده های کاربر را برای استفاده بیشتر آنها مورد تجزیه و تحلیل قرار می دهد.</p>
+        <p>
+          با توجه به استفاده از قدرت محاسباتی بزرگ ، دستیار بلافاصله راه حل های
+          ارائه داده های کاربر را برای استفاده بیشتر آنها مورد تجزیه و تحلیل
+          قرار می دهد.
+        </p>
       </div>
     </div>
-    <div class="grid grid-cols-3">
+    <div
+      class="grid grid-cols-3"
+      data-aos="fade-up"
+      data-aos-duration="750"
+      data-aos-ease="ease-in"
+    >
       <div class="single-items">
-        <img class="mx-auto" src="../../../assets/images/icons/service-01.png" alt />
+        <img
+          class="mx-auto"
+          src="../../../assets/images/icons/service-01.png"
+          alt
+        />
         <h3>کیف پول امن</h3>
-        <p>با توجه به استفاده از قدرت محاسباتی بزرگ ، دستیار بلافاصله راه حل های ارائه داده های کاربر را برای استفاده بیشتر آنها مورد تجزیه و تحلیل قرار می دهد.</p>
+        <p>
+          با توجه به استفاده از قدرت محاسباتی بزرگ ، دستیار بلافاصله راه حل های
+          ارائه داده های کاربر را برای استفاده بیشتر آنها مورد تجزیه و تحلیل
+          قرار می دهد.
+        </p>
       </div>
       <div class="single-items">
-        <img class="mx-auto" src="../../../assets/images/icons/service-01.png" alt />
+        <img
+          class="mx-auto"
+          src="../../../assets/images/icons/service-01.png"
+          alt
+        />
         <h3>کیف پول امن</h3>
-        <p>با توجه به استفاده از قدرت محاسباتی بزرگ ، دستیار بلافاصله راه حل های ارائه داده های کاربر را برای استفاده بیشتر آنها مورد تجزیه و تحلیل قرار می دهد.</p>
+        <p>
+          با توجه به استفاده از قدرت محاسباتی بزرگ ، دستیار بلافاصله راه حل های
+          ارائه داده های کاربر را برای استفاده بیشتر آنها مورد تجزیه و تحلیل
+          قرار می دهد.
+        </p>
       </div>
       <div class="single-items">
-        <img class="mx-auto" src="../../../assets/images/icons/service-01.png" alt />
+        <img
+          class="mx-auto"
+          src="../../../assets/images/icons/service-01.png"
+          alt
+        />
         <h3>کیف پول امن</h3>
-        <p>با توجه به استفاده از قدرت محاسباتی بزرگ ، دستیار بلافاصله راه حل های ارائه داده های کاربر را برای استفاده بیشتر آنها مورد تجزیه و تحلیل قرار می دهد.</p>
+        <p>
+          با توجه به استفاده از قدرت محاسباتی بزرگ ، دستیار بلافاصله راه حل های
+          ارائه داده های کاربر را برای استفاده بیشتر آنها مورد تجزیه و تحلیل
+          قرار می دهد.
+        </p>
       </div>
     </div>
   </div>
@@ -59,6 +119,12 @@ export default {};
 .services .single-items {
   text-align: center;
   margin-bottom: 70px;
+}
+.services .single-items {
+  margin-left: 2rem;
+}
+.services .single-items:last-child {
+  margin-right: 0;
 }
 .services .single-items h3 {
   font-size: 18px;

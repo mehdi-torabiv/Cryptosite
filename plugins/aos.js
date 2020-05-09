@@ -1,5 +1,5 @@
 import AOS from "aos";
-
+import 'feather-icons';
 import "aos/dist/aos.css";
 
 export default ({ app }) => {

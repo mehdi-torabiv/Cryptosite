@@ -1,29 +1,28 @@
 <template>
   <div id="header">
     <NavigationBar></NavigationBar>
+    <ResponsiveNavbar></ResponsiveNavbar>
     <div class="container mx-auto">
-      <div class="grid grid-cols-2 ">
-        <div class="intro-text">
+      <div id="headerhome" class="inline-flex">
+        <div class="intro-text md:pt-0 mt-0">
           <h1>ارز دیجیتال،تکنولوژی برای کار.</h1>
-          <p>
-            برای پیشرفت در بیزینس خود از از دیجیتال ما استفاده کنید.
-          </p>
+          <p>برای پیشرفت در بیزینس خود از از دیجیتال ما استفاده کنید.</p>
           <div class="btn_video">
-            <a href="">دریافت لیست مورد نظر</a>
+            <a href>دریافت لیست مورد نظر</a>
           </div>
           <div class="video-wrapper">
             <div class="video-wrapper-btn">
               <span>
                 <a href="#">
-                  <i> </i>
+                  <i></i>
                   <span></span>
                 </a>
               </span>
             </div>
           </div>
         </div>
-        <div class="intro-img">
-          <img src="../../assets/images/header-02.png" alt="" />
+        <div class="intro-img pr-12">
+          <img src="../../assets/images/header-02.png" />
         </div>
       </div>
     </div>
@@ -32,9 +31,11 @@
 
 <script>
 import NavigationBar from "../NavigationBar/NavigationBar";
+import ResponsiveNavbar from "../NavigationBar/ResponsiveNavbar/ResponsiveNavbar";
 export default {
   components: {
-    NavigationBar
+    NavigationBar,
+    ResponsiveNavbar
   }
 };
 </script>

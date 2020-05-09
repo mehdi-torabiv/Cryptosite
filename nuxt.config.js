@@ -30,7 +30,11 @@ export default {
   */
   plugins: [
     '@/plugins/vuesax',
-    { src: "@/plugins/aos", ssr: false }
+    //'@/plugins/vue-scrollto',
+    { src: "@/plugins/aos", ssr: false },
+    /*{ src: '@/plugins/VueFlickity.js', ssr: false },
+    { src: '@/plugins/vue-carousel.js', ssr: false },
+    { src: '~/plugins/vue-carousel', ssr: false },*/
   ],
   /*
   ** Nuxt.js dev-modules
@@ -45,6 +49,7 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
+    'vue-scrollto/nuxt'
   ],
   /*
   ** Axios module configuration

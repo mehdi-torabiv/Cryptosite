@@ -79,12 +79,56 @@ body {
     -webkit-background-clip: text;
     background-clip: text;
   }
-  #particles-js {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
+  @media only screen and (max-width: 767px) {
+    #header .navbar {
+      display: none;
+    }
+
+    .imgteam {
+      display: none;
+    }
+    #header #headerhome {
+      justify-content: center;
+    }
+    #header .intro-img {
+      display: none;
+    }
+    footer {
+      background: rgb(55, 0, 254) !important;
+      background: linear-gradient(
+        3deg,
+        rgba(55, 0, 254, 1) 0%,
+        rgba(130, 68, 217, 1) 91%,
+        rgba(87, 34, 166, 1) 100%
+      );
+      width: 100%;
+      width: 100%;
+      height: 100%;
+      p {
+        color: white !important;
+        font-size: 22px !important;
+      }
+      .footersec1 {
+        margin-top: 1rem;
+      }
+    }
+    /*.earning-wrapper {
+      background: #ffffff;
+      box-shadow: 0 0 80px 0px rgba(0, 0, 0, 0.15);
+      border-radius: 5px;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      justify-content: space-between;
+    }*/
+  }
+  @media only screen and (min-width: 768px) {
+    #header .resnav {
+      display: none;
+    }
+    #header #headerhome {
+      justify-content: center;
+    }
   }
 }

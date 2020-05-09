@@ -3,28 +3,28 @@
     <div class="container mx-auto">
       <ul>
         <li>
-          <a href class="token">خرید ارز</a>
+          <a class="token">خرید ارز</a>
         </li>
         <li>
           <a href>خانه</a>
         </li>
         <li>
-          <a href>درباره</a>
+          <a href="#about" v-scroll-to="'#about'">درباره</a>
         </li>
         <li>
-          <a href>فروش ارز</a>
+          <a href="#pricingcharts" v-scroll-to="'#pricingcharts'">فروش ارز</a>
         </li>
         <li>
-          <a href>نقشه راه</a>
+          <a href="#services" v-scroll-to="'#services'">نقشه راه</a>
         </li>
         <li>
-          <a href>تیم</a>
+          <a href="#team" v-scroll-to="'#team'">تیم</a>
         </li>
         <li>
-          <a href>پرسش و پاسخ</a>
+          <a href="#faqsec" v-scroll-to="'#faqsec'">پرسش و پاسخ</a>
         </li>
         <li>
-          <a href>ارتباط با ما</a>
+          <a href="#Contactus" v-scroll-to="'#Contactus'">ارتباط با ما</a>
         </li>
         <div class="spacer"></div>
         <div class="navBrand inline-block">
