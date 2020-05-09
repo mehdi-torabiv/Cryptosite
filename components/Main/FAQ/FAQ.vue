@@ -31,12 +31,11 @@
         <div>
           <vs-collapse
             type="margin"
-            icon-arrow="add"
             data-aos="fade-up"
             data-aos-duration="1350"
             data-aos-ease="ease-in"
           >
-            <vs-collapse-item icon-arrow="add">
+            <vs-collapse-item>
               <div slot="header">
                 از چه ارزهای رمزپایه ای می توان برای خرید استفاده کرد؟
               </div>
@@ -44,19 +43,19 @@
               الگوریتم های یادگیری خود ، تجزیه و تحلیل و مقایسه نورون هایی که در
               آنها اصلاح می شوند ، بر اساس تاریخ ساخته شده است.
             </vs-collapse-item>
-            <vs-collapse-item icon-arrow="add">
+            <vs-collapse-item>
               <div slot="header">چگونه میتوانم از این سایت استفاده کنم؟</div>
               هوش مصنوعی مبتنی بر شبکه های عصبی ، با استفاده از جدیدترین
               الگوریتم های یادگیری خود ، تجزیه و تحلیل و مقایسه نورون هایی که در
               آنها اصلاح می شوند ، بر اساس تاریخ ساخته شده است.
             </vs-collapse-item>
-            <vs-collapse-item icon-arrow="add">
+            <vs-collapse-item>
               <div slot="header">برای بهره بری بهتر از ما پشتیبان بگیرید</div>
               هوش مصنوعی مبتنی بر شبکه های عصبی ، با استفاده از جدیدترین
               الگوریتم های یادگیری خود ، تجزیه و تحلیل و مقایسه نورون هایی که در
               آنها اصلاح می شوند ، بر اساس تاریخ ساخته شده است.
             </vs-collapse-item>
-            <vs-collapse-item icon-arrow="add">
+            <vs-collapse-item>
               <div slot="header">بهترین سایت در زمینه ارز دیجیتال</div>
               هوش مصنوعی مبتنی بر شبکه های عصبی ، با استفاده از جدیدترین
               الگوریتم های یادگیری خود ، تجزیه و تحلیل و مقایسه نورون هایی که در
@@ -97,7 +96,7 @@ export default {};
   color: #12ddd0;
   font-weight: 600;
   font-size: 14px;
-  padding-right: 15px;
+  padding-right: 0;
   transition: 0.5s ease-in-out;
 }
 .con-content--item {
