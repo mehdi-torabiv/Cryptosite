@@ -12,7 +12,7 @@
           <a class="token">خرید ارز</a>
         </li>
         <li>
-          <a href>خانه</a>
+          <a href="#header" v-scroll-to="'#header'">خانه</a>
         </li>
         <li>
           <a href="#about" v-scroll-to="'#about'">درباره</a>
@@ -83,7 +83,7 @@ nav {
     rgba(130, 68, 217, 1) 91%,
     rgba(87, 34, 166, 1) 100%
   );
-  transition: ease-in-out 0.5s;
+  transition: ease-in-out 1s;
   padding-top: 10px;
   margin-top: auto;
 }
