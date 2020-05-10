@@ -15,7 +15,7 @@
           data-aos-ease="ease-in"
           href="#"
           class="moreNews"
-        >اطلاعات بیشتر...</a>
+        >بیشتر...</a>
       </div>
     </div>
     <div
@@ -25,7 +25,7 @@
       data-aos-ease="ease-in"
     >
       <div class="sm:block-flex p-8 md:inline-flex">
-        <div class="single-blog md:pl-5">
+        <div class="single-blog mt-0 md:pl-5">
           <h3>
             <a href="#">چگونه میتوانم از سایت خرید کنم؟</a>
           </h3>
@@ -44,7 +44,7 @@
           <h3>
             <a class="aintro" href="#">لیست تبادلات اخیر</a>
           </h3>
-          <div class="post-date">
+          <div class="post-date flex justify-between">
             <span class="date">15 مهر 1399</span>
             <span class="time">3 دقیقه</span>
           </div>
@@ -143,6 +143,7 @@ export default {};
   outline: none;
   font-weight: bold;
 }
+
 .news .title-wrapepr .news-title .single-blog-wrapper {
   padding-left: 120px;
   position: relative;
@@ -159,6 +160,7 @@ export default {};
 .news .title-wrapepr .news-title .single-blog-wrapper:last-child:before {
   display: none;
 }
+
 .news .single-blog-wrapper .single-blog h3 a {
   font-size: 24px;
   color: #19233b !important;
@@ -173,7 +175,7 @@ export default {};
   font-weight: 500;
 }
 .news .single-blog-wrapper .single-blog p {
-  padding-bottom: 40px !important;
+  padding-bottom: 25px !important;
   font-weight: 300;
   margin: 0;
 }
@@ -181,5 +183,6 @@ export default {};
   color: #562ad8 !important;
   font-weight: 600;
   font-size: 22px;
+  float: left;
 }
 </style>

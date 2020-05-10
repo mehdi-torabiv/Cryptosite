@@ -85,7 +85,7 @@ export default {};
 
 <style>
 .services .sub-title {
-  margin: 0px auto 70px;
+  padding: auto 0;
 }
 .services .sub-title h2 {
   font-size: 36px;

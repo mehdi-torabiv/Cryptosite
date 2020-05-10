@@ -4,7 +4,7 @@
     <ResponsiveNavbar></ResponsiveNavbar>
     <div class="container mx-auto">
       <div id="headerhome" class="inline-flex">
-        <div class="intro-text sm:justify-center md:block-flex">
+        <div class="intro-text sm:justify-centermd:block-flex">
           <h1 class>ارز دیجیتال،تکنولوژی برای کار.</h1>
           <p class="sm:p-4">برای پیشرفت در بیزینس خود از از دیجیتال ما استفاده کنید.</p>
           <div class="flex">

@@ -3,7 +3,7 @@
     <div class="container mx-auto text-justify" id="Contactus">
       <div class="footer-btm-wrapper">
         <div class="sm:block-flex md:flex justify-between">
-          <div class="footersec">
+          <div class="footersec sm:p-4 md:p-8 pl-0">
             <h2 class="text-2xl font-bold text-white">لوگو شرکت</h2>
             <p class="py-4 text-justify">
               تمام قالب های وب سایت ما همانطور که ارائه می شود ، ما هیچ تضمینی
@@ -49,16 +49,16 @@
             <h2 class="text-2xl font-bold text-teal-400">شرکت</h2>
             <ul class="py-2">
               <li>
-                <a href>خانه</a>
+                <a href>مشتری</a>
               </li>
               <li>
-                <a href>درباره</a>
+                <a href>شرایط وضوابط</a>
               </li>
               <li>
-                <a href>سرویس ها</a>
+                <a href>پرسش هاوسوالات</a>
               </li>
               <li>
-                <a href>تیم</a>
+                <a href>قیمت گذاری</a>
               </li>
             </ul>
           </div>
@@ -69,7 +69,7 @@
     <div class="copyright mx-auto">
       <p>
         Copyright © and Designed By
-        <span>RoyeshTeam</span>
+        <span>NicoBit</span>
       </p>
     </div>
   </footer>
@@ -92,19 +92,16 @@ footer {
 .footer-btm-wrapper {
   padding-bottom: 80px;
 }
-.footersec {
-  width: 40%;
+.footersec > * {
+  width: 75%;
+}
+.footersec > p {
+  color: white;
 }
 .footersec1 {
   width: 20%;
 }
-.footersec > p {
-  color: #a2b2ff;
-  width: 75%;
-  font-size: 17px !important;
 
-  text-align: right;
-}
 .footersec1 a {
   color: white;
   font-size: 16px;

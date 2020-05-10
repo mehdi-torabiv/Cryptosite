@@ -48,7 +48,7 @@ export default {};
 }
 button {
   font-size: 22px;
-  padding: 9px 25px;
+  padding: 9px 20px;
   border-radius: 50px;
   text-transform: capitalize;
   font-weight: 600;

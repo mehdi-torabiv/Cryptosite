@@ -1,8 +1,8 @@
 <template lang="html">
   <div class="resnav" id="parentx">
-    <vs-button @click="active = !active" color="black" type="filled" 
+    <vs-button @click="active = !active" color="white" type="filled" 
       >
-      <align-justify-icon size="1.5x" class="custom-class"></align-justify-icon>
+      <align-justify-icon size="1.5x" class="custom-class" color="black"></align-justify-icon>
       </vs-button
     >
     <vs-sidebar
@@ -12,6 +12,7 @@
       class="sidebarx"
       spacer
       v-model="active"
+      position-right="right"
     >
       <vs-sidebar-item index="1" href="#header" v-scroll-to="'#header'" >
         خانه
@@ -54,7 +55,7 @@ export default {
 <style lang="stylus">
 #parentx {
   position: fixed;
-  right: 1rem;
+  right: 2rem;
   top: 1rem;
   z-index: 999;
 }

@@ -9,7 +9,7 @@
     <div class="container mx-auto">
       <ul>
         <li>
-          <a class="token">خرید ارز</a>
+          <a href="#" class="token">خرید ارز</a>
         </li>
         <li>
           <a href="#header" v-scroll-to="'#header'">خانه</a>
@@ -114,7 +114,8 @@ ul li:last-child {
 ul li a {
   padding: 30px 0px;
   color: #ffffff;
-  font-size: 15px;
+  font-size: 18px;
+  font-weight: bold;
   text-transform: none;
 }
 ul li a.active,

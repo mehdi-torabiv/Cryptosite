@@ -1,7 +1,7 @@
 <template>
   <div class="multiple-income container mx-auto text-justify">
     <div class="p-8 md:inline-flex">
-      <div class="text md:w-1/2 p-8">
+      <div class="text md:w-1/2">
         <h2
           data-aos="fade-up"
           data-aos-duration="750"
@@ -26,7 +26,7 @@
         data-aos-duration="750"
         data-aos-ease="ease-in"
       >
-        <img src="../../../assets/images/multiple-income-02.png" alt />
+        <img src="../../../assets/images/multiple-income-02.png" alt class />
       </div>
     </div>
   </div>
@@ -38,7 +38,7 @@ export default {};
 
 <style>
 .multiple-income {
-  padding: 100px 0;
+  padding: 20px 0;
 }
 .multiple-income h2 {
   font-size: 36px;

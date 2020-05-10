@@ -28,16 +28,16 @@
         <img src="../../../assets/images/about-2-01.png" alt />
       </div>
     </div>
-    <div class="mt-10 md:inline-flex sm:block-flex">
+    <div class="mt-10 p-8 md:inline-flex sm:block-flex">
       <div
-        class="about-img md:w-1/2"
+        class="about-img md:w-1/2 pl-8"
         data-aos="fade-up"
         data-aos-duration="750"
         data-aos-ease="ease-in"
       >
         <img src="../../../assets/images/about-2-02.png" alt />
       </div>
-      <div class="text px-8 md:w-1/2">
+      <div class="text md:w-1/2">
         <h2
           data-aos="fade-up"
           data-aos-duration="750"

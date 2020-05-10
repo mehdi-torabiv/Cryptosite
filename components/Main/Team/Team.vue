@@ -32,8 +32,8 @@ export default {};
 
 <style>
 .team {
-  margin-top: 180px;
-  margin-bottom: 350px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .teamimg {
   max-height: 360px;

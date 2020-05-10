@@ -1,5 +1,5 @@
 <template>
-  <div class="faq text-justify p-8 overflow-x-hidden" id="faqsec">
+  <div class="faq text-justify p-8 overflow-hidden" id="faqsec">
     <div class="container mx-auto">
       <div class="sm:block-inline md:inline-flex">
         <div class="sm:w-full text-center px-8 md:w-1/2">
@@ -9,6 +9,7 @@
             data-aos-ease="ease-in"
             src="../../../assets/images/faq-02.png"
             alt
+            class
           />
           <h2
             data-aos="fade-up"
@@ -26,7 +27,7 @@
             کاربر را تجزیه و تحلیل می کند.
           </p>
         </div>
-        <div>
+        <div class>
           <vs-collapse
             type="margin"
             data-aos="fade-up"
