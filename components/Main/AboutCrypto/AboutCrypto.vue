@@ -1,19 +1,23 @@
 <template>
-  <div class="AboutCrypto" id="about">
-    <div class="md:inline-flex sm:block">
+  <div class="container mx-auto AboutCrypto text-justify" id="about">
+    <div class="p-8 md:inline-flex">
       <div class="text md:w-1/2">
-        <h2 data-aos="fade-up" data-aos-duration="750" data-aos-ease="ease-in">
-          بهترین فروشگاه برای خرید ارز دیجیتال
-        </h2>
+        <h2
+          data-aos="fade-up"
+          data-aos-duration="750"
+          data-aos-ease="ease-in"
+        >بهترین فروشگاه برای خرید ارز دیجیتال</h2>
         <p data-aos="fade-up" data-aos-duration="750" data-aos-ease="ease-in">
           هوش مصنوعی مبتنی بر شبکه های عصبی ساخته شده با استفاده از جدیدترین
           الگوریتم های خود یادگیری ، تجزیه و تحلیل و مقایسه اروپا که در آن خود
           اصلاح خواهد شد ، بر اساس تاریخچه موفقیت و شکست ، با در نظر گرفتن
           همبستگی اشیاء تجزیه و تحلیل.
         </p>
-        <p data-aos="fade-up" data-aos-duration="750" data-aos-ease="ease-in">
-          به دلیل استفاده از قدرت محاسباتی بزرگ و مصنوعی مبتنی بر شبکه عصبی.
-        </p>
+        <p
+          data-aos="fade-up"
+          data-aos-duration="750"
+          data-aos-ease="ease-in"
+        >به دلیل استفاده از قدرت محاسباتی بزرگ و مصنوعی مبتنی بر شبکه عصبی.</p>
       </div>
       <div
         class="about-img md:w-1/2"
@@ -24,7 +28,7 @@
         <img src="../../../assets/images/about-2-01.png" alt />
       </div>
     </div>
-    <div class="mt-10 md:inline-flex sm:block">
+    <div class="mt-10 md:inline-flex sm:block-flex">
       <div
         class="about-img md:w-1/2"
         data-aos="fade-up"
@@ -33,19 +37,23 @@
       >
         <img src="../../../assets/images/about-2-02.png" alt />
       </div>
-      <div class="text md:w-1/2">
-        <h2 data-aos="fade-up" data-aos-duration="750" data-aos-ease="ease-in">
-          استاندارد جدید در پرداخت دیجیتال.
-        </h2>
+      <div class="text px-8 md:w-1/2">
+        <h2
+          data-aos="fade-up"
+          data-aos-duration="750"
+          data-aos-ease="ease-in"
+        >استاندارد جدید در پرداخت دیجیتال.</h2>
         <p data-aos="fade-up" data-aos-duration="750" data-aos-ease="ease-in">
           هوش مصنوعی مبتنی بر شبکه های عصبی ساخته شده با استفاده از جدیدترین
           الگوریتم های خود یادگیری ، تجزیه و تحلیل و مقایسه اروپا که در آن خود
           اصلاح خواهد شد ، بر اساس تاریخچه موفقیت و شکست ، با در نظر گرفتن
           همبستگی اشیاء تجزیه و تحلیل.
         </p>
-        <p data-aos="fade-up" data-aos-duration="750" data-aos-ease="ease-in">
-          به دلیل استفاده از قدرت محاسباتی بزرگ و مصنوعی مبتنی بر شبکه عصبی.
-        </p>
+        <p
+          data-aos="fade-up"
+          data-aos-duration="750"
+          data-aos-ease="ease-in"
+        >به دلیل استفاده از قدرت محاسباتی بزرگ و مصنوعی مبتنی بر شبکه عصبی.</p>
       </div>
     </div>
   </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="earning-wrapper text-center">
+  <div class="container mx-auto earning-wrapper text-center">
     <div class="single-earning">
       <div class="earning-title" data-aos="fade-up" data-aos-duration="750" data-aos-ease="ease-in">
         <img src="../../../assets/images/icons/erning-01.png" class="ml-5" alt />

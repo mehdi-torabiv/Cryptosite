@@ -1,11 +1,11 @@
 <template>
   <footer>
-    <div class="container mx-auto" id="Contactus">
+    <div class="container mx-auto text-justify" id="Contactus">
       <div class="footer-btm-wrapper">
         <div class="sm:block-flex md:flex justify-between">
           <div class="footersec">
             <h2 class="text-2xl font-bold text-white">لوگو شرکت</h2>
-            <p class="mt-8">
+            <p class="py-4 text-justify">
               تمام قالب های وب سایت ما همانطور که ارائه می شود ، ما هیچ تضمینی
               را ارائه نمی دهیم یا قالب های وب سایت ضمانت نامه همانطور که ارائه
               می شود ، ارائه نمی دهیم.
@@ -13,7 +13,7 @@
           </div>
           <div class="footersec1">
             <h2 class="text-2xl font-bold text-teal-400">شرکت</h2>
-            <ul class="mt-5">
+            <ul class="py-2">
               <li>
                 <a href>خانه</a>
               </li>
@@ -30,7 +30,7 @@
           </div>
           <div class="footersec1">
             <h2 class="text-2xl font-bold text-teal-400">شرکت</h2>
-            <ul class="mt-5">
+            <ul class="py-2">
               <li>
                 <a href>پشتیبانی</a>
               </li>
@@ -47,7 +47,7 @@
           </div>
           <div class="footersec1">
             <h2 class="text-2xl font-bold text-teal-400">شرکت</h2>
-            <ul class="mt-5">
+            <ul class="py-2">
               <li>
                 <a href>خانه</a>
               </li>
@@ -65,7 +65,8 @@
         </div>
       </div>
     </div>
-    <div class="copyright text-center">
+
+    <div class="copyright mx-auto">
       <p>
         Copyright © and Designed By
         <span>RoyeshTeam</span>
@@ -85,10 +86,11 @@ footer {
   /*  padding-top: 150px;*/
   background: url("../../assets/images/bg-img/footer-02.jpg") no-repeat 100%
     100%;
+  background-size: cover;
+  padding-top: 5rem;
 }
 .footer-btm-wrapper {
   padding-bottom: 80px;
-  padding-top: 150px;
 }
 .footersec {
   width: 40%;
@@ -99,6 +101,9 @@ footer {
 .footersec > p {
   color: #a2b2ff;
   width: 75%;
+  font-size: 17px !important;
+
+  text-align: right;
 }
 .footersec1 a {
   color: white;
@@ -116,7 +121,7 @@ footer {
   margin-bottom: 0.8rem;
 }
 .copyright {
-  border-top: 1px solid #7659e3;
+  border-top: 1px solid rgba(236, 237, 238, 0.192);
   width: 100%;
 }
 .copyright p {

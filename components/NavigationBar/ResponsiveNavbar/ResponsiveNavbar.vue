@@ -1,50 +1,97 @@
-<template>
-  <div class="resnav">
-    <vs-navbar
-      collapse
-      v-model="activeItem"
-      class="nabarx"
-      color="#020c59"
-      text-color="white"
-      active-text-color="white"
+<template lang="html">
+  <div class="resnav" id="parentx">
+    <vs-button @click="active = !active" color="black" type="filled" 
+      >
+      <align-justify-icon size="1.5x" class="custom-class"></align-justify-icon>
+      </vs-button
     >
-      <div slot="title">
-        <vs-navbar-title>
-          <img src="../../../assets/images/logo.png" alt="" />
-        </vs-navbar-title>
-      </div>
+    <vs-sidebar
+      parent="body"
+      default-index="1"
+      color="primary"
+      class="sidebarx"
+      spacer
+      v-model="active"
+    >
+      <vs-sidebar-item index="1" href="#header" v-scroll-to="'#header'" >
+        خانه
+      </vs-sidebar-item>
 
-      <vs-navbar-item index="0">
-        <a href="#">خانه</a>
-      </vs-navbar-item>
-      <vs-navbar-item index="1">
-        <a href="#about" v-scroll-to="'#about'">درباره</a>
-      </vs-navbar-item>
-      <vs-navbar-item index="2">
-        <a href="#pricingcharts" v-scroll-to="'#pricingcharts'">فروش ارز</a>
-      </vs-navbar-item>
-      <vs-navbar-item index="3">
-        <a href="#services" v-scroll-to="'#services'">نقشه راه</a>
-      </vs-navbar-item>
-      <vs-navbar-item index="4">
-        <a href="#team" v-scroll-to="'#team'">تیم</a>
-      </vs-navbar-item>
-      <vs-navbar-item index="5">
-        <a href="#Contactus" v-scroll-to="'#Contactus'">ارتباط با ما</a>
-      </vs-navbar-item>
-    </vs-navbar>
+      <vs-sidebar-item index="2" href="#about" v-scroll-to="'#about'">
+        درباره ما
+      </vs-sidebar-item>
+
+      <vs-sidebar-item index="3" href="#pricingcharts" v-scroll-to="'#pricingcharts'">
+        فروش ارز
+      </vs-sidebar-item>
+      <vs-sidebar-item index="4" href="#services" v-scroll-to="'#services'">
+        نقشه راه
+      </vs-sidebar-item>
+      <vs-sidebar-item index="5" href="#team" v-scroll-to="'#team'">
+        تیم
+      </vs-sidebar-item>
+      <vs-sidebar-item index="6" href="#faqsec" v-scroll-to="'#faqsec'">
+        پرسش و پاسخ
+      </vs-sidebar-item>
+      <vs-sidebar-item index="7" href="#Contactus" v-scroll-to="'#Contactus'">
+        ارتباط با ما
+      </vs-sidebar-item>
+    </vs-sidebar>
   </div>
 </template>
+
 <script>
+import { AlignJustifyIcon } from "vue-feather-icons";
 export default {
   data: () => ({
-    activeItem: 0
-  })
+    active: false
+  }),
+  components: {
+    AlignJustifyIcon
+  }
 };
 </script>
-<style>
-.resnav {
+<style lang="stylus">
+#parentx {
   position: fixed;
+  right: 1rem;
+  top: 1rem;
+  z-index: 999;
+}
+
+.header-sidebar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   width: 100%;
+
+  h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    > button {
+      margin-left: 10px;
+    }
+  }
+}
+
+.footer-sidebar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+  > button {
+    border: 0px solid rgba(0, 0, 0, 0) !important;
+    border-left: 1px solid rgba(0, 0, 0, 0.07) !important;
+    border-radius: 0px !important;
+  }
+
+  vs-component vs-button vs-button-null vs-button-filled {
+    margin-right: 1rem;
+  }
 }
 </style>

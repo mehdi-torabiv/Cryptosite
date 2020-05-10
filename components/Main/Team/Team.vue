@@ -1,18 +1,14 @@
 <template>
-  <div class="team-bg" id="team">
+  <div class="team-bg text-right" id="team">
     <div class="team container mx-auto">
-      <div class=" inline-flex content-between">
+      <div class="inline-flex content-between">
         <div
-          class="imagesSec"
+          class="imagesSec box-border"
           data-aos="fade-up"
           data-aos-duration="500"
           data-aos-ease="ease-in"
         >
-          <img
-            src="../../../assets/images/bitfinex.png"
-            class="imgteam"
-            alt=""
-          />
+          <img src="../../../assets/images/bitfinex.png" class="imgteam" />
         </div>
         <div
           class="teaminfo flex flex-col"
@@ -20,10 +16,10 @@
           data-aos-duration="750"
           data-aos-ease="ease-in"
         >
-          <h2 class="pb-5">متصل باش</h2>
-          <p class="text-gray-600">
-            ما ابزارهای موبایل شما را ایجاد کردیم نیاز به تجارت در حرکت است.
-          </p>
+          <h2 class="pb-5 sm:justify-center p-8">متصل باش</h2>
+          <p
+            class="text-gray-600 sm:justify-center mx-auto p-8"
+          >ما ابزارهای موبایل شما را ایجاد کردیم نیاز به تجارت در حرکت است.</p>
         </div>
       </div>
     </div>
@@ -58,6 +54,6 @@ h2 {
 }
 .imagesSec {
   position: relative;
-  bottom: 11.7rem;
+  bottom: 10.7rem;
 }
 </style>

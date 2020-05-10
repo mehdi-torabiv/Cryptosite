@@ -26,6 +26,8 @@
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^1.0.0",
     "less": "^3.11.1",
-    "less-loader": "^6.1.0"
+    "less-loader": "^6.1.0",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2"
   }
 }

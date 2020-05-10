@@ -15,6 +15,7 @@
 
 <script>
 import EarningWrapper from "./EarningWrapper/EarningWrapper";
+
 import AboutCrypto from "./AboutCrypto/AboutCrypto";
 import pricingCharts from "./pricingCharts/pricingCharts";
 import MultipleIncome from "./MultipleIncome/MultipleIncome";

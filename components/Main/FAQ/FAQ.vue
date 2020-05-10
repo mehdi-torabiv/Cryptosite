@@ -1,8 +1,8 @@
 <template>
-  <div class="faq" id="faqsec">
+  <div class="faq text-justify p-8 overflow-x-hidden" id="faqsec">
     <div class="container mx-auto">
-      <div class="inline-flex">
-        <div class="w-1/2">
+      <div class="sm:block-inline md:inline-flex">
+        <div class="sm:w-full text-center px-8 md:w-1/2">
           <img
             data-aos="fade-up"
             data-aos-duration="750"
@@ -15,9 +15,7 @@
             data-aos-duration="750"
             data-aos-ease="ease-in"
             class="text-xl text-right font-bold"
-          >
-            سوالات متداول
-          </h2>
+          >سوالات متداول</h2>
           <p
             class="text-gray-500 mt-5 ml-5"
             data-aos="fade-up"
@@ -36,28 +34,25 @@
             data-aos-ease="ease-in"
           >
             <vs-collapse-item>
-              <div slot="header">
-                از چه ارزهای رمزپایه ای می توان برای خرید استفاده کرد؟
-              </div>
-              هوش مصنوعی مبتنی بر شبکه های عصبی ، با استفاده از جدیدترین
+              <div
+                slot="header"
+                class="w-10/12 leading-8"
+              >از چه ارزهای رمزپایه ای می توان برای خرید استفاده کرد؟</div>هوش مصنوعی مبتنی بر شبکه های عصبی ، با استفاده از جدیدترین
               الگوریتم های یادگیری خود ، تجزیه و تحلیل و مقایسه نورون هایی که در
               آنها اصلاح می شوند ، بر اساس تاریخ ساخته شده است.
             </vs-collapse-item>
             <vs-collapse-item>
-              <div slot="header">چگونه میتوانم از این سایت استفاده کنم؟</div>
-              هوش مصنوعی مبتنی بر شبکه های عصبی ، با استفاده از جدیدترین
+              <div slot="header" class="w-10/12 leading-8">چگونه میتوانم از این سایت استفاده کنم؟</div>هوش مصنوعی مبتنی بر شبکه های عصبی ، با استفاده از جدیدترین
               الگوریتم های یادگیری خود ، تجزیه و تحلیل و مقایسه نورون هایی که در
               آنها اصلاح می شوند ، بر اساس تاریخ ساخته شده است.
             </vs-collapse-item>
             <vs-collapse-item>
-              <div slot="header">برای بهره بری بهتر از ما پشتیبان بگیرید</div>
-              هوش مصنوعی مبتنی بر شبکه های عصبی ، با استفاده از جدیدترین
+              <div slot="header" class="w-10/12 leading-8">برای بهره بری بهتر از ما پشتیبان بگیرید</div>هوش مصنوعی مبتنی بر شبکه های عصبی ، با استفاده از جدیدترین
               الگوریتم های یادگیری خود ، تجزیه و تحلیل و مقایسه نورون هایی که در
               آنها اصلاح می شوند ، بر اساس تاریخ ساخته شده است.
             </vs-collapse-item>
             <vs-collapse-item>
-              <div slot="header">بهترین سایت در زمینه ارز دیجیتال</div>
-              هوش مصنوعی مبتنی بر شبکه های عصبی ، با استفاده از جدیدترین
+              <div slot="header" class="w-10/12 leading-8">بهترین سایت در زمینه ارز دیجیتال</div>هوش مصنوعی مبتنی بر شبکه های عصبی ، با استفاده از جدیدترین
               الگوریتم های یادگیری خود ، تجزیه و تحلیل و مقایسه نورون هایی که در
               آنها اصلاح می شوند ، بر اساس تاریخ ساخته شده است.
             </vs-collapse-item>
@@ -91,7 +86,14 @@ export default {};
 .con-vs-radio {
   margin: 5px;
 }
+.icon-header .vs-collapse-item--icon-header {
+  box-sizing: border-box;
+}
 .vuesax-app-is-ltr .vs-collapse-item--icon-header {
+  /*
+  make responsive horizentall scroll error...
+  left: 35px;*/
+  position: absolute;
   left: 35px;
   color: #12ddd0;
   font-weight: 600;

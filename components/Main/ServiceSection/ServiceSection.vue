@@ -1,22 +1,21 @@
 <template>
-  <div class="services container mx-auto" id="services">
-    <div class="sub-title">
-      <h2 data-aos="fade-up" data-aos-duration="750" data-aos-ease="ease-in">
-        چرا باید در سایت ما سرمایه گذاری کنید؟
-      </h2>
+  <div class="services container mx-auto text-justify" id="services">
+    <div class="sub-title px-4">
+      <h2
+        class="sm:px-8 md:"
+        data-aos="fade-up"
+        data-aos-duration="750"
+        data-aos-ease="ease-in"
+      >چرا باید در سایت ما سرمایه گذاری کنید؟</h2>
     </div>
     <div
-      class="sm:block py-5 md:inline-flex"
+      class="sm:block p-8 md:inline-flex"
       data-aos="fade-up"
       data-aos-duration="750"
       data-aos-ease="ease-in"
     >
       <div class="single-items">
-        <img
-          class="mx-auto"
-          src="../../../assets/images/icons/service-01.png"
-          alt
-        />
+        <img class="mx-auto" src="../../../assets/images/icons/service-01.png" alt />
         <h3>کیف پول امن</h3>
         <p>
           با توجه به استفاده از قدرت محاسباتی بزرگ ، دستیار بلافاصله راه حل های
@@ -25,11 +24,7 @@
         </p>
       </div>
       <div class="single-items">
-        <img
-          class="mx-auto"
-          src="../../../assets/images/icons/service-01.png"
-          alt
-        />
+        <img class="mx-auto" src="../../../assets/images/icons/service-01.png" alt />
         <h3>کیف پول امن</h3>
         <p>
           با توجه به استفاده از قدرت محاسباتی بزرگ ، دستیار بلافاصله راه حل های
@@ -38,11 +33,7 @@
         </p>
       </div>
       <div class="single-items">
-        <img
-          class="mx-auto"
-          src="../../../assets/images/icons/service-01.png"
-          alt
-        />
+        <img class="mx-auto" src="../../../assets/images/icons/service-01.png" alt />
         <h3>کیف پول امن</h3>
         <p>
           با توجه به استفاده از قدرت محاسباتی بزرگ ، دستیار بلافاصله راه حل های
@@ -52,17 +43,13 @@
       </div>
     </div>
     <div
-      class="sm:block py-5 md:inline-flex"
+      class="sm:block p-8 md:inline-flex"
       data-aos="fade-up"
       data-aos-duration="750"
       data-aos-ease="ease-in"
     >
       <div class="single-items">
-        <img
-          class="mx-auto"
-          src="../../../assets/images/icons/service-01.png"
-          alt
-        />
+        <img class="mx-auto" src="../../../assets/images/icons/service-01.png" alt />
         <h3>کیف پول امن</h3>
         <p>
           با توجه به استفاده از قدرت محاسباتی بزرگ ، دستیار بلافاصله راه حل های
@@ -71,11 +58,7 @@
         </p>
       </div>
       <div class="single-items">
-        <img
-          class="mx-auto"
-          src="../../../assets/images/icons/service-01.png"
-          alt
-        />
+        <img class="mx-auto" src="../../../assets/images/icons/service-01.png" alt />
         <h3>کیف پول امن</h3>
         <p>
           با توجه به استفاده از قدرت محاسباتی بزرگ ، دستیار بلافاصله راه حل های
@@ -84,11 +67,7 @@
         </p>
       </div>
       <div class="single-items">
-        <img
-          class="mx-auto"
-          src="../../../assets/images/icons/service-01.png"
-          alt
-        />
+        <img class="mx-auto" src="../../../assets/images/icons/service-01.png" alt />
         <h3>کیف پول امن</h3>
         <p>
           با توجه به استفاده از قدرت محاسباتی بزرگ ، دستیار بلافاصله راه حل های

@@ -1,14 +1,13 @@
 <template>
-  <div class="news container mx-auto">
+  <div class="news container mx-auto text-justify">
     <div class="title-wrapepr">
-      <div class="news-title">
+      <div class="news-title p-8">
         <div class="sub-title">
           <h2 data-aos="fade-up" data-aos-duration="750" data-aos-ease="ease-in">اخبار سایت</h2>
-          <p
-            data-aos="fade-up"
-            data-aos-duration="750"
-            data-aos-ease="ease-in"
-          >دستیار NRM مصنوعی مبتنی بر شبکه عصبی ، فوراً استفاده از داده های کاربر را تجزیه و تحلیل می کند....</p>
+          <p data-aos="fade-up" data-aos-duration="750" data-aos-ease="ease-in">
+            دستیار NRM مصنوعی مبتنی بر شبکه عصبی ، فوراً استفاده از داده های
+            کاربر را تجزیه و تحلیل می کند....
+          </p>
         </div>
         <a
           data-aos="fade-up"
@@ -25,38 +24,52 @@
       data-aos-duration="1200"
       data-aos-ease="ease-in"
     >
-      <div class="single-blog">
-        <h3>
-          <a href="#">چگونه میتوانم از سایت خرید کنم؟</a>
-        </h3>
-        <div class="post-date flex justify-between">
-          <span class="date">15 مهر 1399</span>
-          <span class="time">3 دقیقه</span>
+      <div class="sm:block-flex p-8 md:inline-flex">
+        <div class="single-blog md:pl-5">
+          <h3>
+            <a href="#">چگونه میتوانم از سایت خرید کنم؟</a>
+          </h3>
+          <div class="post-date flex justify-between">
+            <span class="date">15 مهر 1399</span>
+            <span class="time">3 دقیقه</span>
+          </div>
+          <p>
+            هوش مصنوعی مبتنی بر شبکه های عصبی ، ساخته شده با استفاده از جدیدترین
+            الگوریتم های یادگیری خود ، مقایسه تجزیه و تحلیل نورونهایی که در آنها
+            اصلاح خواهند شد ، براساس تاریخچه
+          </p>
+          <a class="atag" href="#">بیشتر...</a>
         </div>
-        <p>هوش مصنوعی مبتنی بر شبکه های عصبی ، ساخته شده با استفاده از جدیدترین الگوریتم های یادگیری خود ، مقایسه تجزیه و تحلیل نورونهایی که در آنها اصلاح خواهند شد ، براساس تاریخچه</p>
-        <a class="atag" href="#">بیشتر...</a>
-      </div>
-      <div class="single-blog">
-        <h3>
-          <a class="aintro" href="#">لیست تبادلات اخیر</a>
-        </h3>
-        <div class="post-date">
-          <span class="date">15 مهر 1399</span>
-          <span class="time">3 دقیقه</span>
+        <div class="single-blog md:pl-5">
+          <h3>
+            <a class="aintro" href="#">لیست تبادلات اخیر</a>
+          </h3>
+          <div class="post-date">
+            <span class="date">15 مهر 1399</span>
+            <span class="time">3 دقیقه</span>
+          </div>
+          <p>
+            هوش مصنوعی مبتنی بر شبکه های عصبی ، ساخته شده با استفاده از جدیدترین
+            الگوریتم های یادگیری خود ، مقایسه تجزیه و تحلیل نورونهایی که در آنها
+            اصلاح خواهند شد ، براساس تاریخچه
+          </p>
+          <a class="atag" href="#">بیشتر...</a>
         </div>
-        <p>هوش مصنوعی مبتنی بر شبکه های عصبی ، ساخته شده با استفاده از جدیدترین الگوریتم های یادگیری خود ، مقایسه تجزیه و تحلیل نورونهایی که در آنها اصلاح خواهند شد ، براساس تاریخچه</p>
-        <a class="atag" href="#">بیشتر...</a>
-      </div>
-      <div class="single-blog">
-        <h3>
-          <a href="#">اخبار سایت</a>
-        </h3>
-        <div class="post-date flex justify-between">
-          <span class="date">15 مهر 1399</span>
-          <span class="time">3 دقیقه</span>
+        <div class="single-blog md:pl-5">
+          <h3>
+            <a href="#">اخبار سایت</a>
+          </h3>
+          <div class="post-date flex justify-between">
+            <span class="date">15 مهر 1399</span>
+            <span class="time">3 دقیقه</span>
+          </div>
+          <p>
+            هوش مصنوعی مبتنی بر شبکه های عصبی ، ساخته شده با استفاده از جدیدترین
+            الگوریتم های یادگیری خود ، مقایسه تجزیه و تحلیل نورونهایی که در آنها
+            اصلاح خواهند شد ، براساس تاریخچه
+          </p>
+          <a class="atag" href="#">بیشتر...</a>
         </div>
-        <p>هوش مصنوعی مبتنی بر شبکه های عصبی ، ساخته شده با استفاده از جدیدترین الگوریتم های یادگیری خود ، مقایسه تجزیه و تحلیل نورونهایی که در آنها اصلاح خواهند شد ، براساس تاریخچه</p>
-        <a class="atag" href="#">بیشتر...</a>
       </div>
     </div>
   </div>

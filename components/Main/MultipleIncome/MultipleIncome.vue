@@ -1,10 +1,12 @@
 <template>
-  <div class="multiple-income container mx-auto">
-    <div class="mt-10 md:inline-flex sm:block">
-      <div class="text md:w-1/2 pr-10">
-        <h2 data-aos="fade-up" data-aos-duration="750" data-aos-ease="ease-in">
-          استاندارد جدید در پرداخت دیجیتال.
-        </h2>
+  <div class="multiple-income container mx-auto text-justify">
+    <div class="p-8 md:inline-flex">
+      <div class="text md:w-1/2 p-8">
+        <h2
+          data-aos="fade-up"
+          data-aos-duration="750"
+          data-aos-ease="ease-in"
+        >استاندارد جدید در پرداخت دیجیتال.</h2>
         <p data-aos="fade-up" data-aos-duration="750" data-aos-ease="ease-in">
           هوش مصنوعی مبتنی بر شبکه های عصبی ساخته شده با استفاده از جدیدترین
           الگوریتم های خود یادگیری ، تجزیه و تحلیل و مقایسه اروپا که در آن خود
@@ -16,9 +18,7 @@
           data-aos-duration="750"
           data-aos-ease="ease-in"
           class="pb-8"
-        >
-          به دلیل استفاده از قدرت محاسباتی بزرگ و مصنوعی مبتنی بر شبکه عصبی.
-        </p>
+        >به دلیل استفاده از قدرت محاسباتی بزرگ و مصنوعی مبتنی بر شبکه عصبی.</p>
       </div>
       <div
         class="about-img md:w-1/2"
@@ -53,6 +53,6 @@ export default {};
 }
 .multiple-income .about-img {
   margin-top: -6%;
-  margin-right: 12%;
+  margin-right: 6%;
 }
 </style>

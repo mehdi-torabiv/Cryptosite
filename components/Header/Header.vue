@@ -1,27 +1,29 @@
 <template>
-  <div id="header">
+  <div id="header" class="overflow-hidden">
     <NavigationBar></NavigationBar>
     <ResponsiveNavbar></ResponsiveNavbar>
     <div class="container mx-auto">
       <div id="headerhome" class="inline-flex">
-        <div class="intro-text md:pt-0 mt-0">
-          <h1>ارز دیجیتال،تکنولوژی برای کار.</h1>
-          <p>برای پیشرفت در بیزینس خود از از دیجیتال ما استفاده کنید.</p>
-          <div class="btn_video">
-            <a href>دریافت لیست مورد نظر</a>
-          </div>
-          <div class="video-wrapper">
-            <div class="video-wrapper-btn">
-              <span>
-                <a href="#">
-                  <i></i>
-                  <span></span>
-                </a>
-              </span>
+        <div class="intro-text sm:justify-center md:block-flex">
+          <h1 class>ارز دیجیتال،تکنولوژی برای کار.</h1>
+          <p class="sm:p-4">برای پیشرفت در بیزینس خود از از دیجیتال ما استفاده کنید.</p>
+          <div class="flex">
+            <div class="btn_video">
+              <a href>دریافت لیست مورد نظر</a>
+            </div>
+            <div class="video-wrapper">
+              <div class="video-wrapper-btn">
+                <span class="Presentation">
+                  <a href="#">
+                    <span></span>
+                    <i></i>
+                  </a>
+                </span>
+              </div>
             </div>
           </div>
         </div>
-        <div class="intro-img pr-12">
+        <div class="intro-img pr-12 md:block-flex lg:inline-flex">
           <img src="../../assets/images/header-02.png" />
         </div>
       </div>
@@ -32,10 +34,13 @@
 <script>
 import NavigationBar from "../NavigationBar/NavigationBar";
 import ResponsiveNavbar from "../NavigationBar/ResponsiveNavbar/ResponsiveNavbar";
+import { PlayIcon } from "vue-feather-icons";
+
 export default {
   components: {
     NavigationBar,
-    ResponsiveNavbar
+    ResponsiveNavbar,
+    PlayIcon
   }
 };
 </script>
@@ -107,4 +112,16 @@ export default {
   margin-left: -6%;
   margin-top: 5%;
 }
+/*.Presentation {
+  color: white;
+  right: 5rem;
+  position: relative;
+}
+.custom-class {
+  background: white;
+  color: turquoise !important;
+  border-radius: 50%;
+  margin-top: 2rem;
+  padding: 25px;
+}*/
 </style>

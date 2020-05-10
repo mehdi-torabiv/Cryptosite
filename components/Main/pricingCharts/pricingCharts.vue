@@ -6,22 +6,10 @@
         data-aos="fade-up"
         data-aos-duration="950"
         data-aos-ease="ease-in"
-      >
-        نمودار قیمت
-      </h2>
+      >نمودار قیمت</h2>
       <div class="chart">
-        <img
-          class="mx-auto"
-          src="../../../assets/images/priceing-chats-02.png"
-          alt
-        />
-        <button
-          data-aos="fade-in"
-          data-aos-duration="750"
-          data-aos-ease="ease-in"
-        >
-          نمایش جدول ها
-        </button>
+        <img class="mx-auto" src="../../../assets/images/priceing-chats-02.png" alt />
+        <button data-aos="fade-in" data-aos-duration="750" data-aos-ease="ease-in">نمایش جدول ها</button>
       </div>
     </div>
   </div>
