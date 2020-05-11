@@ -1,10 +1,17 @@
 <template>
-  <div id="singleBlog" class="md:w-1/3 justify-center">
+  <div
+    id="singleBlog"
+    class="md:w-1/3 justify-center overflow-hidden"
+    data-aos="fade-up"
+    data-aos-duration="750"
+    data-aos-ease="ease-in"
+    data-aos-once="true"
+  >
     <div class="blog-img" slot="blogimg">
       <a href="#">
-        <img :src="imagedata" alt class="video-ifram" />
+        <img :src="imagesrc" alt class="video-ifram" />
       </a>
-      <a href>
+      <a href class="player">
         <play-icon class="custom-class"></play-icon>
       </a>
     </div>
@@ -37,7 +44,7 @@ import { PlayIcon } from "vue-bytesize-icons";
 
 export default {
   props: {
-    imagedata: {
+    imagesrc: {
       type: String,
       default: null
     }
@@ -49,10 +56,16 @@ export default {
 <style>
 #singleBlog {
   padding: 15px;
-  background: blanchedalmond;
+  background: #ffffff;
   margin-bottom: 30px;
   max-width: 33.3333%;
   margin-left: 1rem;
+  border-radius: 3px;
+}
+#singleBlog:hover {
+  box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.144);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
 }
 #singleBlog .blog-img img {
   border-radius: 3px;
@@ -70,5 +83,18 @@ export default {
 }
 #singleBlog .share_options > li > a > img {
   vertical-align: middle;
+}
+#singleBlog .blog-img .player {
+  box-sizing: border-box;
+}
+#singleBlog .blog-img .player .custom-class {
+  position: relative;
+  background: linear-gradient(to left, #f879b6 0%, #9982ed 100%);
+  border-radius: 50%;
+  top: -1rem;
+  right: 19rem;
+  color: white;
+}
+#singleBlog .blog-img .player .custom-class:hover {
 }
 </style>
