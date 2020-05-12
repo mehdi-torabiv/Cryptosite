@@ -44,8 +44,12 @@ export default {};
   font-size: 16px;
   color: #8d95a6;
   border-radius: 3px;
-  box-shadow: 0 1px 2px 2px rgba(0, 0, 0, 0.144);
   outline: none;
+}
+.comment textarea:focus,
+.comment input:focus {
+  box-shadow: 0 1px 2px 2px rgba(0, 0, 0, 0.144);
+  transition: 0.3s all ease-in-out;
 }
 .comment textarea {
   resize: none;

@@ -12,6 +12,10 @@ export default {
 </script>
 
 <style scoped>
+form {
+  box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.116);
+  padding: 0.2rem;
+}
 input {
   height: 58px;
   padding-right: 20px;
