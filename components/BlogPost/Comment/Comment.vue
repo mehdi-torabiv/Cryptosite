@@ -1,6 +1,6 @@
 <template>
-  <div class="container mx-auto">
-    <div class="comment w-full flex inline-flex pb-8">
+  <div class="comments container mx-auto mb-6">
+    <div class="comment w-full flex inline-flex py-8 px-4">
       <div class="author-img">
         <img :src="imgOne" alt="" />
       </div>
@@ -39,6 +39,10 @@ export default {
 </script>
 
 <style scoped>
+.comments {
+  box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.164);
+  border-radius: 5px;
+}
 img {
   max-height: 80px;
   max-width: 80px;

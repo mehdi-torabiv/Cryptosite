@@ -89,6 +89,7 @@ nav {
   transition: ease-in-out 1s;
   padding-top: 10px;
   margin-top: auto;
+  top: 0;
 }
 .navBrand {
   padding: 25px 0;

@@ -1,84 +1,86 @@
 <template>
-  <div class="blog-post">
+  <div class="bg-blog">
     <div class="blognav">
       <NavigationBar></NavigationBar>
     </div>
-    <div class="container mx-auto">
-      <div class="header-blog-post  mb-4">
-        <h2>
-          وبلاگ ما
-        </h2>
-        <p class="text-gray-600">
-          پیشرفت چشمگیر در بیزینس به واسطه سایت نیکوبیت
-        </p>
-      </div>
-      <div class="postarea-blog-post ">
-        <img
-          class="mx-auto w-full mb-12"
-          src="../assets/images/blog/post.jpg"
-          alt=""
-        />
-      </div>
-      <div class="blog-post-wrapper inline-flex">
-        <div class="blog-details w-2/3 ml-5">
-          <div class="header-blog-post-wrapper">
-            <h2>
-              ارتباطات اکوسیستم بیت کوین راه تضعیف میکند.
-            </h2>
-            <div class="author-info my-8">
-              <span class="ml-12 text-gray-600">
-                پست شده در تاریخ 18 آذر 1399</span
-              >
-              <span class="text-gray-600"> توسط - مهدی ترابی</span>
+    <div class="blog-post">
+      <div class="main-blog container mx-auto my-12">
+        <div class="header-blog-post  mb-4">
+          <h2>
+            وبلاگ ما
+          </h2>
+          <p class="text-gray-600">
+            پیشرفت چشمگیر در بیزینس به واسطه سایت نیکوبیت
+          </p>
+        </div>
+        <div class="postarea-blog-post ">
+          <img
+            class="mx-auto w-full mb-12"
+            src="../assets/images/blog/post.jpg"
+            alt=""
+          />
+        </div>
+        <div class="blog-post-wrapper inline-flex">
+          <div class="blog-details w-2/3 ml-5">
+            <div class="header-blog-post-wrapper">
+              <h2>
+                ارتباطات اکوسیستم بیت کوین راه تضعیف میکند.
+              </h2>
+              <div class="author-info my-8">
+                <span class="ml-12 text-gray-600">
+                  پست شده در تاریخ 18 آذر 1399</span
+                >
+                <span class="text-gray-600"> توسط - مهدی ترابی</span>
+              </div>
             </div>
+            <div class="detail-blog-post-wrapper text-justify sm:p-8 ">
+              <p class="text-gray-600 text-md leading-snug font-bold mb-6">
+                اولین تغییر مزیت متحرک ramen استقرار مدل کسب و کار بوم بتا
+                خلاقیت مدل سوختگی آندروید بوم بتا خلاق میزان سوختگی آندروید
+                کاربر گرافیکی. اولین مزیت متحرک تبدیل استقرار ramen تبدیل اولین
+                مزیت متحرک ramen استقرار مدل کسب و کار بوم بتا مدل سوزش آندروید
+                خلاق بوم بتا آندروید خلاق میزان سوختگی گرافیکی. اولین بار
+                استقرار مزیت انتقال حرکت
+              </p>
+              <p class="text-gray-600 text-md leading-snug font-bold mb-6">
+                اولین تغییر مزیت متحرک ramen استقرار مدل کسب و کار بوم بتا
+                خلاقیت مدل سوختگی آندروید بوم بتا خلاق میزان سوختگی آندروید
+                کاربر گرافیکی. اولین مزیت متحرک تبدیل استقرار ramen تبدیل اولین
+                مزیت متحرک ramen استقرار مدل کسب و کار بوم بتا مدل سوزش آندروید
+                خلاق بوم بتا آندروید خلاق میزان سوختگی گرافیکی. اولین بار
+                استقرار مزیت انتقال حرکت
+              </p>
+              <p class="text-gray-600 text-md leading-snug font-bold mb-6">
+                اولین تغییر مزیت متحرک ramen استقرار مدل کسب و کار بوم بتا
+                خلاقیت مدل سوختگی آندروید بوم بتا خلاق میزان سوختگی آندروید
+                کاربر گرافیکی. اولین مزیت متحرک تبدیل استقرار ramen تبدیل اولین
+                مزیت متحرک ramen استقرار مدل کسب و کار بوم بتا مدل سوزش آندروید
+                خلاق بوم بتا آندروید خلاق میزان سوختگی گرافیکی. اولین بار
+                استقرار مزیت انتقال حرکت
+              </p>
+              <p class="text-gray-600 text-md leading-snug font-bold mb-6">
+                اولین تغییر مزیت متحرک ramen استقرار مدل کسب و کار بوم بتا
+                خلاقیت مدل سوختگی آندروید بوم بتا خلاق میزان سوختگی آندروید
+                کاربر گرافیکی. اولین مزیت متحرک تبدیل استقرار ramen تبدیل اولین
+                مزیت متحرک ramen استقرار مدل کسب و کار بوم بتا مدل سوزش آندروید
+                خلاق بوم بتا آندروید خلاق میزان سوختگی گرافیکی. اولین بار
+                استقرار مزیت انتقال حرکت
+              </p>
+            </div>
+            <div class="comment">
+              <h2><span>2</span>نظر</h2>
+              <Comment :imgOne="imgOne"></Comment>
+              <Comment :imgOne="imgTwo"></Comment>
+            </div>
+            <LeaveComment></LeaveComment>
           </div>
-          <div class="detail-blog-post-wrapper text-justify sm:p-8 ">
-            <p class="text-gray-600 text-md leading-snug font-bold mb-6">
-              اولین تغییر مزیت متحرک ramen استقرار مدل کسب و کار بوم بتا خلاقیت
-              مدل سوختگی آندروید بوم بتا خلاق میزان سوختگی آندروید کاربر
-              گرافیکی. اولین مزیت متحرک تبدیل استقرار ramen تبدیل اولین مزیت
-              متحرک ramen استقرار مدل کسب و کار بوم بتا مدل سوزش آندروید خلاق
-              بوم بتا آندروید خلاق میزان سوختگی گرافیکی. اولین بار استقرار مزیت
-              انتقال حرکت
-            </p>
-            <p class="text-gray-600 text-md leading-snug font-bold mb-6">
-              اولین تغییر مزیت متحرک ramen استقرار مدل کسب و کار بوم بتا خلاقیت
-              مدل سوختگی آندروید بوم بتا خلاق میزان سوختگی آندروید کاربر
-              گرافیکی. اولین مزیت متحرک تبدیل استقرار ramen تبدیل اولین مزیت
-              متحرک ramen استقرار مدل کسب و کار بوم بتا مدل سوزش آندروید خلاق
-              بوم بتا آندروید خلاق میزان سوختگی گرافیکی. اولین بار استقرار مزیت
-              انتقال حرکت
-            </p>
-            <p class="text-gray-600 text-md leading-snug font-bold mb-6">
-              اولین تغییر مزیت متحرک ramen استقرار مدل کسب و کار بوم بتا خلاقیت
-              مدل سوختگی آندروید بوم بتا خلاق میزان سوختگی آندروید کاربر
-              گرافیکی. اولین مزیت متحرک تبدیل استقرار ramen تبدیل اولین مزیت
-              متحرک ramen استقرار مدل کسب و کار بوم بتا مدل سوزش آندروید خلاق
-              بوم بتا آندروید خلاق میزان سوختگی گرافیکی. اولین بار استقرار مزیت
-              انتقال حرکت
-            </p>
-            <p class="text-gray-600 text-md leading-snug font-bold mb-6">
-              اولین تغییر مزیت متحرک ramen استقرار مدل کسب و کار بوم بتا خلاقیت
-              مدل سوختگی آندروید بوم بتا خلاق میزان سوختگی آندروید کاربر
-              گرافیکی. اولین مزیت متحرک تبدیل استقرار ramen تبدیل اولین مزیت
-              متحرک ramen استقرار مدل کسب و کار بوم بتا مدل سوزش آندروید خلاق
-              بوم بتا آندروید خلاق میزان سوختگی گرافیکی. اولین بار استقرار مزیت
-              انتقال حرکت
-            </p>
+          <div class="w-1/3 text-right text-gray-600">
+            <LeftWrapper></LeftWrapper>
           </div>
-          <div class="comment">
-            <h2><span>2</span>نظر</h2>
-            <Comment :imgOne="imgOne"></Comment>
-            <Comment :imgOne="imgTwo"></Comment>
-          </div>
-          <LeaveComment></LeaveComment>
-        </div>
-        <div class="w-1/3 text-right text-gray-600">
-          <LeftWrapper></LeftWrapper>
         </div>
       </div>
+      <Footer></Footer>
     </div>
-    <Footer></Footer>
   </div>
 </template>
 
@@ -110,9 +112,21 @@ export default {
 </script>
 
 <style scoped>
+.bg-blog {
+  background: #e6e6e6;
+}
+.main-blog {
+  margin: 120px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+}
 .blog-post {
   margin: 0;
   padding: 0;
+}
+.postarea-blog-post {
+  margin: 0 -20px;
 }
 .blognav {
   background: rgb(55, 0, 254);

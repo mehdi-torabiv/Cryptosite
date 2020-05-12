@@ -3,9 +3,21 @@
     <div class="blognav">
       <NavigationBar></NavigationBar>
     </div>
-    <div class="container mx-auto">
-      <div class="sub-title-blog py-12">
-        <h2 class="header-title-blog text-center">بلاگ و رسانه سایت نیکوبیت</h2>
+    <div
+      class="main-blog container mx-auto"
+      data-aos="fade-right"
+      data-aos-delay="900"
+      data-aos-once="true"
+    >
+      <div
+        class="sub-title-blog py-12"
+        data-aos="fade-down"
+        data-aos-delay="900"
+        data-aos-once="true"
+      >
+        <h2 class="header-title-blog text-center">
+          بلاگ و رسانه سایت نیکوبیت
+        </h2>
         <p class="subtitle-blog text-center text-gray-600">
           پیشرفت چشمگیر در بیزینس به واسطه سایت نیکوبیت
         </p>
@@ -27,8 +39,8 @@
           <SingleBlog :imagesrc="imgblog9"> </SingleBlog>
         </div>
       </div>
+      <email></email>
     </div>
-    <email></email>
     <Footer></Footer>
   </div>
 </template>
@@ -76,6 +88,13 @@ export default {
 .blog {
   padding: 0;
   margin: 0;
+  background: #e6e6e6;
+}
+.main-blog {
+  margin: 120px auto;
+  background: white;
+  padding: 45px 20px;
+  border-radius: 5px;
 }
 .blognav {
   background: rgb(55, 0, 254);

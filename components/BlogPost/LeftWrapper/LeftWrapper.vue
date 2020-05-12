@@ -1,20 +1,20 @@
 <template>
   <div class="mx-auto">
-    <SearchBar></SearchBar>
     <Category></Category>
     <AboutCompany></AboutCompany>
+    <PopularTags></PopularTags>
   </div>
 </template>
 
 <script>
-import SearchBar from "../../SearchBar/SearchBar";
 import Category from "../Category/Category";
 import AboutCompany from "../AboutCompany/AboutCompany";
+import PopularTags from "../PopularTags/PopularTags";
 export default {
   components: {
-    SearchBar,
     Category,
-    AboutCompany
+    AboutCompany,
+    PopularTags
   }
 };
 </script>

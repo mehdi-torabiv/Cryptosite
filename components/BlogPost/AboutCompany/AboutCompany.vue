@@ -1,6 +1,6 @@
 <template>
   <div class="About-company p-4">
-    <h2 class="title my-3 text-xl pr-4 text-black">دسته بندی</h2>
+    <h2 class="title my-3 text-xl pr-4 text-black">درباره نیکوبیت</h2>
     <p class="pr-4 text-justify px-4 text-md mb-2">
       از آنجایی که طراحان عموما نویسنده متن نیستند و وظیفه رعایت حق تکثیر متون
       را ندارند و در همان حال کار آنها به نوعی وابسته به متن می‌باشد آنها با
