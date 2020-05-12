@@ -73,7 +73,9 @@
           </div>
           <LeaveComment></LeaveComment>
         </div>
-        <div class="w-1/3 text-right text-gray-600"></div>
+        <div class="w-1/3 text-right text-gray-600">
+          <LeftWrapper></LeftWrapper>
+        </div>
       </div>
     </div>
     <Footer></Footer>
@@ -85,6 +87,8 @@ import NavigationBar from "../components/NavigationBar/NavigationBar";
 import Comment from "../components/BlogPost/Comment/Comment";
 import LeaveComment from "../components/BlogPost/LeaveComment/LeaveComment";
 import Footer from "../components/Footer/Footer";
+//leftwrapper imported;
+import LeftWrapper from "../components/BlogPost/LeftWrapper/LeftWrapper";
 //import images
 import user1 from "../assets/images/blog/user-01.png";
 import user2 from "../assets/images/blog/user-02.png";
@@ -96,6 +100,7 @@ export default {
     };
   },
   components: {
+    LeftWrapper,
     NavigationBar,
     Comment,
     LeaveComment,
