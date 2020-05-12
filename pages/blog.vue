@@ -28,7 +28,7 @@
         </div>
       </div>
     </div>
-    <Subscribe></Subscribe>
+    <email></email>
     <Footer></Footer>
   </div>
 </template>
@@ -65,7 +65,7 @@ export default {
   components: {
     NavigationBar: NavigationBar,
     SingleBlog,
-    Subscribe,
+    email: Subscribe,
     Footer
   },
   methods: {}

@@ -69,7 +69,7 @@
     <div class="copyright mx-auto">
       <p>
         Copyright © and Designed By
-        <span>NicoBit</span>
+        <span>NikoBit</span>
       </p>
     </div>
   </footer>
