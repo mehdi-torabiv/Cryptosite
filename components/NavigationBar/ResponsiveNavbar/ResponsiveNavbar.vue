@@ -2,7 +2,7 @@
   <div class="resnav" id="parentx">
     <vs-button @click="active = !active" color="white" type="filled" 
       >
-      <align-justify-icon size="1.5x" class="custom-class" color="black"></align-justify-icon>
+      <align-justify-icon size="2x" class="custom-class" color="black"></align-justify-icon>
       </vs-button
     >
     <vs-sidebar
@@ -14,11 +14,14 @@
       v-model="active"
       position-right="true"
     >
-      <vs-sidebar-item index="1" href="#header" v-scroll-to="'#header'" >
+    <vs-sidebar-item index="1" href="#header" v-scroll-to="'#header'" >
+        <img src="../../../assets/images/gradient-logo.png"  alt="">
+      </vs-sidebar-item>
+      <vs-sidebar-item index="2" href="#header" v-scroll-to="'#header'" >
         خانه
       </vs-sidebar-item>
 
-      <vs-sidebar-item index="2" href="#about" v-scroll-to="'#about'">
+      <vs-sidebar-item index="3"  href="#about" v-scroll-to="'#about'">
         درباره ما
       </vs-sidebar-item>
 
@@ -55,7 +58,7 @@ export default {
 <style lang="stylus">
 #parentx {
   position: fixed;
-  right: 2rem;
+  right: 1rem;
   top: 1rem;
   z-index: 999;
 }

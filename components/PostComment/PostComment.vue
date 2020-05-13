@@ -37,7 +37,7 @@ export default {};
 }
 .comment textarea:focus,
 .comment input:focus {
-  box-shadow: 0 1px 2px 2px rgba(0, 0, 0, 0.144);
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.055);
   transition: 0.3s all ease-in-out;
 }
 .comment textarea {

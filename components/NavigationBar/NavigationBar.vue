@@ -8,9 +8,10 @@
   >
     <div class="container mx-auto">
       <ul>
-        <li>
-          <a href="#" class="token">خرید ارز</a>
-        </li>
+        <div class="navBrand inline-block">
+          <img src="../../assets/images/logo.png" alt />
+        </div>
+
         <li>
           <a href="#header" v-scroll-to="'#header'">خانه</a>
         </li>
@@ -33,9 +34,9 @@
           <a href="#Contactus" v-scroll-to="'#Contactus'">ارتباط با ما</a>
         </li>
         <div class="spacer"></div>
-        <div class="navBrand inline-block">
-          <img src="../../assets/images/logo.png" alt />
-        </div>
+        <li>
+          <a href="#" class="token">خرید ارز</a>
+        </li>
       </ul>
     </div>
   </nav>

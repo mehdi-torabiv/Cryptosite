@@ -1,5 +1,5 @@
 <template>
-  <form action="#" class="w-full inline-flex mb-2">
+  <form action="#" class="w-full inline-flex mb-4">
     <button class="w-1/12 ml-2"></button>
     <input class="w-11/12" type="text" name placeholder="جستجو..." id />
   </form>

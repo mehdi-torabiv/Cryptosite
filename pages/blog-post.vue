@@ -125,6 +125,7 @@ export default {
 }
 .blog-post {
   padding: 0;
+  margin: 0 auto;
 }
 .postarea-blog-post {
   margin: 0 -20px;

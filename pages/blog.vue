@@ -81,6 +81,7 @@ export default {
 </script>
 
 <style scoped>
+
 .bg-blog {
   background: #e6e6e6;
 }
@@ -91,7 +92,7 @@ export default {
   border-radius: 5px;
 }
 .blog-post {
-  padding: 0;
+  padding: 0;margin: 0 auto;
 }
 .blog .header-title-blog {
   font-size: 36px !important;
