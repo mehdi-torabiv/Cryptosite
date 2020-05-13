@@ -16,4 +16,12 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+h2 {
+  font-size: 36px !important;
+  margin-bottom: 15px;
+  font-weight: normal;
+  color: black !important;
+  letter-spacing: 1px;
+}
+</style>

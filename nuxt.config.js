@@ -49,7 +49,8 @@ export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    'vue-scrollto/nuxt'
+    //'vue-scrollto/nuxt'
+    ['vue-scrollto/nuxt', { duration: 1500 }],
   ],
   /*
   ** Axios module configuration

@@ -1,55 +1,50 @@
+
 <template>
-  <div class="blog">
-    <ResponsiveNavbar></ResponsiveNavbar>
-    <div class="blognav">
-      <NavigationBar></NavigationBar>
-    </div>
-    <div
-      class="main-blog container mx-auto"
-      data-aos="fade-right"
-      data-aos-delay="900"
-      data-aos-once="true"
-    >
-      <div
-        class="sub-title-blog py-12"
-        data-aos="fade-down"
-        data-aos-delay="900"
-        data-aos-once="true"
-      >
-        <h2 class="header-title-blog text-center">بلاگ و رسانه سایت نیکوبیت</h2>
-        <p
-          class="subtitle-blog text-center text-gray-600"
-        >پیشرفت چشمگیر در بیزینس به واسطه سایت نیکوبیت</p>
-      </div>
-      <div class="blogmain">
-        <div class="blogs sm:block-flex md:inline-flex">
-          <SingleBlog :imagesrc="imgblog1"></SingleBlog>
-          <SingleBlog :imagesrc="imgblog2"></SingleBlog>
-          <SingleBlog :imagesrc="imgblog3"></SingleBlog>
-        </div>
-        <div class="blogs sm:block-flex md:inline-flex">
-          <SingleBlog :imagesrc="imgblog4"></SingleBlog>
-          <SingleBlog :imagesrc="imgblog5"></SingleBlog>
-          <SingleBlog :imagesrc="imgblog6"></SingleBlog>
-        </div>
-        <div class="blogs sm:block-flex md:inline-flex">
-          <SingleBlog :imagesrc="imgblog7"></SingleBlog>
-          <SingleBlog :imagesrc="imgblog8"></SingleBlog>
-          <SingleBlog :imagesrc="imgblog9"></SingleBlog>
+  <div class="bg-blog sm:overflow-x-scroll md:overflow-x-hidden">
+    <div class="blog-post container mx-auto my-12">
+      <div class="main-blog">
+        <div
+            class="sub-title-blog py-12"
+            data-aos="fade-up"
+            data-aos-delay="900"
+            data-aos-once="true"
+          >
+            <h2 class="header-title-blog text-center">بلاگ و رسانه سایت نیکوبیت</h2>
+            <p
+              class="subtitle-blog text-center text-gray-600"
+            >پیشرفت چشمگیر در بیزینس به واسطه سایت نیکوبیت</p>
+          </div>
+          <div class="blogmain">
+            <div class="mx-8 mx-auto">
+              <SearchBar></SearchBar>
+            </div>
+            <div class="blogs sm:block-flex md:inline-flex">
+              <SingleBlog :imagesrc="imgblog1"></SingleBlog>
+              <SingleBlog :imagesrc="imgblog2"></SingleBlog>
+              <SingleBlog :imagesrc="imgblog3"></SingleBlog>
+            </div>
+            <div class="blogs sm:block-flex md:inline-flex">
+              <SingleBlog :imagesrc="imgblog4"></SingleBlog>
+              <SingleBlog :imagesrc="imgblog5"></SingleBlog>
+              <SingleBlog :imagesrc="imgblog6"></SingleBlog>
+            </div>
+            <div class="blogs sm:block-flex md:inline-flex">
+              <SingleBlog :imagesrc="imgblog7"></SingleBlog>
+              <SingleBlog :imagesrc="imgblog8"></SingleBlog>
+              <SingleBlog :imagesrc="imgblog9"></SingleBlog>
+            </div>
+          </div>
+          <email></email>
         </div>
       </div>
-      <email></email>
     </div>
-    <Footer></Footer>
   </div>
 </template>
 
 <script>
-import NavigationBar from "../components/NavigationBar/NavigationBar";
 import SingleBlog from "../components/BlogSection/SingleBlog/SingleBlog";
-import Footer from "../components/Footer/Footer";
 import Subscribe from "../components/BlogSection/Subscribe/Subscribe";
-import ResponsiveNavbar from "../components/NavigationBar/ResponsiveNavbar/ResponsiveNavbar";
+import SearchBar from "../components/SearchBar/SearchBar";
 //image imports
 import blog1 from "../assets/images/blog/blog-01.jpg";
 import blog2 from "../assets/images/blog/blog-02.jpg";
@@ -75,37 +70,28 @@ export default {
     };
   },
   components: {
-    NavigationBar: NavigationBar,
-    ResponsiveNavbar,
+    // NavigationBar: NavigationBar,
+    // ResponsiveNavbar,
     SingleBlog,
-    email: Subscribe,
-    Footer
+    SearchBar,
+    email: Subscribe
   },
   methods: {}
 };
 </script>
 
 <style scoped>
-.blog {
-  padding: 0;
-  margin: 0;
+.bg-blog {
   background: #e6e6e6;
 }
 .main-blog {
-  margin: 120px auto;
   background: white;
-  padding: 45px 20px;
+  padding: 20px;
+  margin: 120px auto;
   border-radius: 5px;
 }
-.blognav {
-  background: rgb(55, 0, 254);
-  background: linear-gradient(
-    3deg,
-    rgba(55, 0, 254, 1) 0%,
-    rgba(130, 68, 217, 1) 91%,
-    rgba(87, 34, 166, 1) 100%
-  );
-  transition: ease-in-out 1s;
+.blog-post {
+  padding: 0;
 }
 .blog .header-title-blog {
   font-size: 36px !important;
@@ -113,5 +99,21 @@ export default {
   font-weight: bold;
   color: black !important;
   letter-spacing: 1px;
+}
+h2 {
+  font-size: 36px !important;
+  margin-bottom: 15px;
+  font-weight: normal;
+  color: black !important;
+  letter-spacing: 1px;
+}
+/* .comment > h2 {
+
+} */
+
+@media only screen and (max-width: 640px) {
+  .blog-post .main-blog {
+    margin: 50px auto;
+  }
 }
 </style>

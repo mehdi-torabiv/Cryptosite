@@ -1,11 +1,7 @@
 <template>
   <div class="bg-blog sm:overflow-x-scroll md:overflow-x-hidden">
-    <div class="blognav">
-      <NavigationBar></NavigationBar>
-      <ResponsiveNavbar></ResponsiveNavbar>
-    </div>
-    <div class="blog-post">
-      <div class="main-blog container mx-auto my-12">
+    <div class="blog-post container mx-auto my-12">
+      <div class="main-blog">
         <div
           class="header-blog-post mb-4"
           data-aos="fade-right"
@@ -91,16 +87,12 @@
         </div>
       </div>
     </div>
-    <Footer></Footer>
   </div>
 </template>
 
 <script>
-import NavigationBar from "../components/NavigationBar/NavigationBar";
-import ResponsiveNavbar from "../components/NavigationBar/ResponsiveNavbar/ResponsiveNavbar";
 import Comment from "../components/BlogPost/Comment/Comment";
 import LeaveComment from "../components/BlogPost/LeaveComment/LeaveComment";
-import Footer from "../components/Footer/Footer";
 //leftwrapper imported;
 import LeftWrapper from "../components/BlogPost/LeftWrapper/LeftWrapper";
 //import images
@@ -115,11 +107,8 @@ export default {
   },
   components: {
     LeftWrapper,
-    NavigationBar,
-    ResponsiveNavbar,
     Comment,
-    LeaveComment,
-    Footer
+    LeaveComment
   }
 };
 </script>
@@ -129,19 +118,18 @@ export default {
   background: #e6e6e6;
 }
 .main-blog {
-  margin: 120px auto;
   background: white;
   padding: 20px;
+  margin: 120px auto;
   border-radius: 5px;
 }
 .blog-post {
-  margin: 0;
   padding: 0;
 }
 .postarea-blog-post {
   margin: 0 -20px;
 }
-.blognav {
+/* .blognav {
   background: rgb(55, 0, 254);
   background: linear-gradient(
     3deg,
@@ -150,7 +138,7 @@ export default {
     rgba(87, 34, 166, 1) 100%
   );
   transition: ease-in-out 1s;
-}
+} */
 h2 {
   font-size: 36px !important;
   margin-bottom: 15px;
@@ -158,7 +146,12 @@ h2 {
   color: black !important;
   letter-spacing: 1px;
 }
-.comment > h2 {
-  /**/
+/* .comment > h2 {
+
+} */
+@media only screen and (max-width: 640px) {
+  .blog-post .main-blog {
+    margin: 50px auto;
+  }
 }
 </style>

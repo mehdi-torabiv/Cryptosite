@@ -1,7 +1,7 @@
 <template>
   <form action="#" class="w-full inline-flex mb-2">
     <button class="w-1/12 ml-2"></button>
-    <input class="w-11/12" type="text" name="" placeholder="جستجو..." id="" />
+    <input class="w-11/12" type="text" name placeholder="جستجو..." id />
   </form>
 </template>
 
@@ -28,7 +28,7 @@ input {
 }
 input:focus,
 button:focus {
-  box-shadow: 0 3px 4px 1px rgba(0, 0, 0, 0.062);
+  /* box-shadow: 0 3px 4px 1px rgba(0, 0, 0, 0.062); */
   transition: 0.3s ease-in-out;
   outline: none;
 }

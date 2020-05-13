@@ -1,30 +1,18 @@
 <template>
   <div class="comment mt-5">
     <form action="#">
-      <div class="inline-flex w-full mb-4">
-        <div class="w-1/2 pl-2">
-          <input type="text" placeholder="نام و نام خانوادگی" name="" id="" />
+      <div class="block-flex w-full mb-2">
+        <div class="w-full pl-2 py-2">
+          <input type="text" placeholder="نام و نام خانوادگی" name id />
         </div>
-        <div class="w-1/2 pr-2">
-          <input
-            type="text"
-            placeholder="ایمیل خود را وارد کنید"
-            name=""
-            id=""
-            required
-          />
+        <div class="w-full pl-2 py-2">
+          <input type="text" placeholder="ایمیل خود را وارد کنید" name id required />
         </div>
       </div>
-      <div>
-        <textarea
-          name=""
-          placeholder="پیغام خود را بنویسید"
-          id=""
-          cols="30"
-          rows="10"
-        ></textarea>
+      <div class="pl-2">
+        <textarea name placeholder="پیغام خود را بنویسید" id cols="30" rows="10"></textarea>
       </div>
-      <div class="submit-btn my-8 w-1/5">
+      <div class="submit-btn my-4 w-full text-center pl-2">
         <button>ارسال پیغام</button>
       </div>
     </form>
@@ -45,6 +33,7 @@ export default {};
   color: #8d95a6;
   border-radius: 3px;
   outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.13);
 }
 .comment textarea:focus,
 .comment input:focus {
@@ -70,5 +59,18 @@ export default {};
 .comment .submit-btn:hover {
   box-shadow: 0 2px 3px 2px rgba(0, 0, 0, 0.137);
   transition: all 0.3s ease-in-out;
+}
+@media only screen and (max-width: 470px) {
+  .comment {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+  }
+  .comment .submit-btn {
+    text-align: center;
+    padding: inherit;
+    width: 100%;
+    height: 35px;
+  }
 }
 </style>

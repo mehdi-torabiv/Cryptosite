@@ -1,7 +1,5 @@
 <template>
   <div id="header" class="overflow-hidden">
-    <NavigationBar></NavigationBar>
-    <ResponsiveNavbar></ResponsiveNavbar>
     <div class="container mx-auto">
       <div id="headerhome" class="inline-flex">
         <div class="intro-text sm:justify-centermd:block-flex">
@@ -32,14 +30,10 @@
 </template>
 
 <script>
-import NavigationBar from "../NavigationBar/NavigationBar";
-import ResponsiveNavbar from "../NavigationBar/ResponsiveNavbar/ResponsiveNavbar";
 import { PlayIcon } from "vue-feather-icons";
 
 export default {
   components: {
-    NavigationBar,
-    ResponsiveNavbar,
     PlayIcon
   }
 };

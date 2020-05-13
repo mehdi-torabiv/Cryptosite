@@ -3,28 +3,16 @@
     <div class="header mt-12">
       <h2
         class="text-black text-xl font-bold mb-4"
-        data-aos="fade-down"
+        data-aos="fade-up"
         data-aos-delay="250"
         data-aos-once="true"
-      >
-        برای بروزرسانی اخبار در زمینه ارز دیجیتال عضو شوید!
-      </h2>
-      <p
-        class="text-gray-600"
-        data-aos="fade-left"
-        data-aos-delay="250"
-        data-aos-once="true"
-      >
+      >برای بروزرسانی اخبار در زمینه ارز دیجیتال عضو شوید!</h2>
+      <p class="text-gray-600" data-aos="fade-down" data-aos-delay="250" data-aos-once="true">
         دستیار NRM مصنوعی مبتنی بر شبکه عصبی ، فوراً استفاده از داده های کاربر
         را تجزیه و تحلیل می کند.
       </p>
     </div>
-    <form
-      action="#"
-      data-aos="fade-right"
-      data-aos-delay="250"
-      data-aos-once="true"
-    >
+    <form action="#" data-aos="fade-up" data-aos-delay="250" data-aos-once="true">
       <div class="inline-flex my-8">
         <button type="submit" class="text-center">ارسال</button>
         <input type="email" required placeholder="ایمیل خود را وارد کنید" />

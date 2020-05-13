@@ -1,25 +1,19 @@
 <template>
-  <div class="comments container mx-auto mb-6 ">
+  <div class="comments container mx-auto mb-6">
     <div class="comment py-8 px-4 sm:py-4 sm:w-1/3 md:w-full flex inline-flex">
       <div class="author-img">
-        <img :src="imgOne" alt="" />
+        <img :src="imgOne" alt />
       </div>
 
       <div class="comment-text mr-6 text-lg w-full">
         <div class="author-info flex inline-flex mb-4">
-          <a href="" class="author-name text-gray-500 ml-4">
-            سارا شمس
-          </a>
-          <span class="date-comment text-gray-500">
-            12مهر 1397
-          </span>
+          <a href class="author-name text-gray-500 ml-4">سارا شمس</a>
+          <span class="date-comment text-gray-500">12مهر 1397</span>
         </div>
-        <p class="text-right text-gray-600 ">
-          بهترین بلاگ برای اخبار به روز درباره ارز دیجیتال.
-        </p>
+        <p class="text-right text-gray-600">بهترین بلاگ برای اخبار به روز درباره ارز دیجیتال.</p>
       </div>
       <div class="reply justify-end">
-        <a href="" class="text-lg">پاسخ</a>
+        <a href class="text-lg">پاسخ</a>
       </div>
     </div>
     <slot name="reply"></slot>
@@ -60,5 +54,17 @@ img {
   transition: all 0.3s ease-in-out;
   text-decoration: none;
   outline: none;
+}
+@media only screen and (max-width: 470px) {
+  .comment {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+  }
+  .comment .submit-btn {
+    text-align: center;
+    padding: inherit;
+    width: 100%;
+  }
 }
 </style>

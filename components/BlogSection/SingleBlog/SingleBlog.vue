@@ -22,18 +22,6 @@
       </h3>
       <div class="blog-meta mt-3">
         <span class="ago text-sm text-gray-600">1 ساعت پیش</span>
-        <ul class="share_options float-left">
-          <li>
-            <a href>
-              <img src="../../../assets/images/blog/bicon-01.png" alt />
-            </a>
-          </li>
-          <li>
-            <a href>
-              <img src="../../../assets/images/blog/bicon-02.png" alt />
-            </a>
-          </li>
-        </ul>
       </div>
     </div>
   </div>
@@ -78,7 +66,7 @@ export default {
   position: relative;
   left: 0 !important;
 }
-#singleBlog .share_options li {
+/* #singleBlog .share_options li {
   display: inline-block;
 }
 #singleBlog .share_options > li > a > img {
@@ -94,7 +82,7 @@ export default {
   top: -1rem;
   right: 19rem;
   color: white;
-}
+} */
 #singleBlog .blog-img .player .custom-class:hover {
 }
 

@@ -126,8 +126,9 @@ footer {
   margin: 0;
   padding: 30px 0;
   border: none;
-  line-height: 14px;
+  line-height: 18px;
   text-align: center;
+  font-weight: 300;
   color: #a4acc4;
 }
 </style>
