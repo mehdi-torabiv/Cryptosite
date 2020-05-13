@@ -114,12 +114,4 @@ export default {
   color: black !important;
   letter-spacing: 1px;
 }
-@media only screen and (max-width: 770px) and (min-width: 446px) {
-  .blog {
-    max-width: 100% !important;
-  }
-  #singleBlog .blog-img .player .custom-class {
-    right: 8rem;
-  }
-}
 </style>

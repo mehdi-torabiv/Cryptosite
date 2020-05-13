@@ -11,9 +11,9 @@
       <a href="#">
         <img :src="imagesrc" alt class="video-ifram" />
       </a>
-      <a href class="player">
+      <!-- <a href class="player">
         <play-icon class="custom-class"></play-icon>
-      </a>
+      </a>-->
     </div>
     <div class="blog-title">
       <span class="text-sm">12 مهرماه 1399</span>
@@ -105,11 +105,11 @@ export default {
     margin-left: 0;
   }
 }
-@media only screen and (max-width: 770px) and (min-width: 446px) {
+/*@media only screen and (max-width: 770px) and (min-width: 446px) {
   #singleBlog {
     max-width: 50%;
     margin: 0 auto;
     margin-left: 0;
   }
-}
+}*/
 </style>

@@ -2,53 +2,42 @@
   <div class="bg-blog sm:overflow-x-scroll md:overflow-x-hidden">
     <div class="blognav">
       <NavigationBar></NavigationBar>
+      <ResponsiveNavbar></ResponsiveNavbar>
     </div>
-    <div class="blog-post sm:block-flex">
+    <div class="blog-post">
       <div class="main-blog container mx-auto my-12">
         <div
-          class="header-blog-post  mb-4"
+          class="header-blog-post mb-4"
           data-aos="fade-right"
           data-aos-delay="500"
           data-aos-once="true"
         >
-          <h2>
-            وبلاگ ما
-          </h2>
-          <p class="text-gray-600">
-            پیشرفت چشمگیر در بیزینس به واسطه سایت نیکوبیت
-          </p>
+          <h2>وبلاگ ما</h2>
+          <p class="text-gray-600">پیشرفت چشمگیر در بیزینس به واسطه سایت نیکوبیت</p>
         </div>
         <div
-          class="postarea-blog-post "
+          class="postarea-blog-post"
           data-aos="fade-right"
           data-aos-delay="500"
           data-aos-once="true"
         >
-          <img
-            class="mx-auto w-full mb-12"
-            src="../assets/images/blog/post.jpg"
-            alt=""
-          />
+          <img class="mx-auto w-full mb-12" src="../assets/images/blog/post.jpg" alt />
         </div>
         <div class="blog-post-wrapper inline-flex">
           <div
-            class="blog-details ml-5 sm:w-full px-8 md:w-2/3 "
+            class="blog-details ml-5 sm:w-full px-8 md:w-2/3"
             data-aos="fade-up"
             data-aos-delay="500"
             data-aos-once="true"
           >
             <div class="header-blog-post-wrapper">
-              <h2>
-                ارتباطات اکوسیستم بیت کوین راه تضعیف میکند.
-              </h2>
+              <h2>ارتباطات اکوسیستم بیت کوین راه تضعیف میکند.</h2>
               <div class="author-info my-8">
-                <span class="ml-12 text-gray-600">
-                  پست شده در تاریخ 18 آذر 1399</span
-                >
-                <span class="text-gray-600"> توسط - مهدی ترابی</span>
+                <span class="ml-12 text-gray-600">پست شده در تاریخ 18 آذر 1399</span>
+                <span class="text-gray-600">توسط - مهدی ترابی</span>
               </div>
             </div>
-            <div class="detail-blog-post-wrapper text-justify sm:p-8 ">
+            <div class="detail-blog-post-wrapper text-justify sm:p-8">
               <p class="text-gray-600 text-md leading-snug font-bold mb-6">
                 اولین تغییر مزیت متحرک ramen استقرار مدل کسب و کار بوم بتا
                 خلاقیت مدل سوختگی آندروید بوم بتا خلاق میزان سوختگی آندروید
@@ -83,14 +72,16 @@
               </p>
             </div>
             <div class="comment">
-              <h2><span>2</span>نظر</h2>
+              <h2>
+                <span>2</span>نظر
+              </h2>
               <Comment :imgOne="imgOne"></Comment>
               <Comment :imgOne="imgTwo"></Comment>
             </div>
             <LeaveComment></LeaveComment>
           </div>
           <div
-            class="w-1/3 text-right text-gray-600"
+            class="md:w-1/3 text-right text-gray-600"
             data-aos="fade-down"
             data-aos-delay="500"
             data-aos-once="true"
@@ -106,6 +97,7 @@
 
 <script>
 import NavigationBar from "../components/NavigationBar/NavigationBar";
+import ResponsiveNavbar from "../components/NavigationBar/ResponsiveNavbar/ResponsiveNavbar";
 import Comment from "../components/BlogPost/Comment/Comment";
 import LeaveComment from "../components/BlogPost/LeaveComment/LeaveComment";
 import Footer from "../components/Footer/Footer";
@@ -124,6 +116,7 @@ export default {
   components: {
     LeftWrapper,
     NavigationBar,
+    ResponsiveNavbar,
     Comment,
     LeaveComment,
     Footer
