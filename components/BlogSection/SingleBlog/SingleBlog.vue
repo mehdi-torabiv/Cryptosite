@@ -20,9 +20,9 @@
       <h3 class="mt-3 font-normal">
         <a href>IBM اثبات برای کار بلاکچین</a>
       </h3>
-      <div class="blog-meta mt-3 ">
+      <div class="blog-meta mt-3">
         <span class="ago text-sm text-gray-600">1 ساعت پیش</span>
-        <ul class="share_options float-left ">
+        <ul class="share_options float-left">
           <li>
             <a href>
               <img src="../../../assets/images/blog/bicon-01.png" alt />
@@ -96,5 +96,20 @@ export default {
   color: white;
 }
 #singleBlog .blog-img .player .custom-class:hover {
+}
+
+/* Responsive part */
+@media only screen and (max-width: 445px) {
+  #singleBlog {
+    max-width: 100%;
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 770px) and (min-width: 446px) {
+  #singleBlog {
+    max-width: 50%;
+    margin: 0 auto;
+    margin-left: 0;
+  }
 }
 </style>

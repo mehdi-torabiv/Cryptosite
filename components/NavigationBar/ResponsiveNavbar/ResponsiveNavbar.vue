@@ -12,7 +12,7 @@
       class="sidebarx"
       spacer
       v-model="active"
-      position-right="right"
+      position-right="true"
     >
       <vs-sidebar-item index="1" href="#header" v-scroll-to="'#header'" >
         خانه

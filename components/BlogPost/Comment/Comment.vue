@@ -1,6 +1,6 @@
 <template>
-  <div class="comments container mx-auto mb-6">
-    <div class="comment w-full flex inline-flex py-8 px-4">
+  <div class="comments container mx-auto mb-6 ">
+    <div class="comment py-8 px-4 sm:py-4 sm:w-1/3 md:w-full flex inline-flex">
       <div class="author-img">
         <img :src="imgOne" alt="" />
       </div>

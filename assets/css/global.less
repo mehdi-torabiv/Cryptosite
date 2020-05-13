@@ -3,7 +3,6 @@
 * {
   margin: 0;
   padding: 0;
-
 }
 
 body {
@@ -140,18 +139,16 @@ body {
       text-align: right;
     }
 
-
     .pricingCharts:before {
       content: none;
     }
-
 
     .news .title-wrapepr:before,
     .news .title-wrapepr:after {
       content: none;
     }
 
-    #header .navbar {
+    .navbar {
       display: none;
     }
 
@@ -207,7 +204,7 @@ body {
   }
 
   @media only screen and (min-width: 768px) {
-    #header .resnav {
+    .resnav {
       display: none;
     }
 
@@ -218,17 +215,15 @@ body {
     #Contactus .footersec {
       width: 75% !important;
     }
-
-
   }
 
-  @media (min-width:400px) and (max-width:1050px) {
+  @media (min-width: 400px) and (max-width: 1050px) {
     #header .intro-text {
       margin-top: 80px !important;
       padding: 0 auto;
     }
 
-    #header .token {
+    .token {
       display: none;
     }
 
@@ -237,10 +232,27 @@ body {
     }
   }
 
-  @media (min-width:1050px) and (max-width:1280px) {
+  @media (min-width: 1050px) and (max-width: 1280px) {
     .team .imagesSec {
       position: relative;
       bottom: 4.2rem;
+    }
+  }
+
+  /* Blog Responsive */
+  @media only screen and (max-width: 770px) and (min-width: 446px) {
+    .blog {
+      max-width: 100% !important;
+    }
+
+    #singleBlog {
+      max-width: 50%;
+      margin: 0 auto;
+    }
+
+    #singleBlog .blog-img .player .custom-class {
+      right: 12rem;
+
     }
   }
 }

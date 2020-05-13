@@ -1,5 +1,6 @@
 <template>
   <div class="blog">
+    <ResponsiveNavbar></ResponsiveNavbar>
     <div class="blognav">
       <NavigationBar></NavigationBar>
     </div>
@@ -15,28 +16,26 @@
         data-aos-delay="900"
         data-aos-once="true"
       >
-        <h2 class="header-title-blog text-center">
-          بلاگ و رسانه سایت نیکوبیت
-        </h2>
-        <p class="subtitle-blog text-center text-gray-600">
-          پیشرفت چشمگیر در بیزینس به واسطه سایت نیکوبیت
-        </p>
+        <h2 class="header-title-blog text-center">بلاگ و رسانه سایت نیکوبیت</h2>
+        <p
+          class="subtitle-blog text-center text-gray-600"
+        >پیشرفت چشمگیر در بیزینس به واسطه سایت نیکوبیت</p>
       </div>
       <div class="blogmain">
-        <div class="blogs sm:block-flex  md:inline-flex">
-          <SingleBlog :imagesrc="imgblog1"> </SingleBlog>
-          <SingleBlog :imagesrc="imgblog2"> </SingleBlog>
-          <SingleBlog :imagesrc="imgblog3"> </SingleBlog>
+        <div class="blogs sm:block-flex md:inline-flex">
+          <SingleBlog :imagesrc="imgblog1"></SingleBlog>
+          <SingleBlog :imagesrc="imgblog2"></SingleBlog>
+          <SingleBlog :imagesrc="imgblog3"></SingleBlog>
         </div>
-        <div class="blogs sm:block-flex  md:inline-flex">
-          <SingleBlog :imagesrc="imgblog4"> </SingleBlog>
-          <SingleBlog :imagesrc="imgblog5"> </SingleBlog>
-          <SingleBlog :imagesrc="imgblog6"> </SingleBlog>
+        <div class="blogs sm:block-flex md:inline-flex">
+          <SingleBlog :imagesrc="imgblog4"></SingleBlog>
+          <SingleBlog :imagesrc="imgblog5"></SingleBlog>
+          <SingleBlog :imagesrc="imgblog6"></SingleBlog>
         </div>
-        <div class="blogs sm:block-flex  md:inline-flex">
-          <SingleBlog :imagesrc="imgblog7"> </SingleBlog>
-          <SingleBlog :imagesrc="imgblog8"> </SingleBlog>
-          <SingleBlog :imagesrc="imgblog9"> </SingleBlog>
+        <div class="blogs sm:block-flex md:inline-flex">
+          <SingleBlog :imagesrc="imgblog7"></SingleBlog>
+          <SingleBlog :imagesrc="imgblog8"></SingleBlog>
+          <SingleBlog :imagesrc="imgblog9"></SingleBlog>
         </div>
       </div>
       <email></email>
@@ -50,6 +49,7 @@ import NavigationBar from "../components/NavigationBar/NavigationBar";
 import SingleBlog from "../components/BlogSection/SingleBlog/SingleBlog";
 import Footer from "../components/Footer/Footer";
 import Subscribe from "../components/BlogSection/Subscribe/Subscribe";
+import ResponsiveNavbar from "../components/NavigationBar/ResponsiveNavbar/ResponsiveNavbar";
 //image imports
 import blog1 from "../assets/images/blog/blog-01.jpg";
 import blog2 from "../assets/images/blog/blog-02.jpg";
@@ -76,6 +76,7 @@ export default {
   },
   components: {
     NavigationBar: NavigationBar,
+    ResponsiveNavbar,
     SingleBlog,
     email: Subscribe,
     Footer
@@ -112,5 +113,13 @@ export default {
   font-weight: bold;
   color: black !important;
   letter-spacing: 1px;
+}
+@media only screen and (max-width: 770px) and (min-width: 446px) {
+  .blog {
+    max-width: 100% !important;
+  }
+  #singleBlog .blog-img .player .custom-class {
+    right: 8rem;
+  }
 }
 </style>

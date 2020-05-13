@@ -1,11 +1,16 @@
 <template>
-  <div class="bg-blog">
+  <div class="bg-blog sm:overflow-x-scroll md:overflow-x-hidden">
     <div class="blognav">
       <NavigationBar></NavigationBar>
     </div>
-    <div class="blog-post">
+    <div class="blog-post sm:block-flex">
       <div class="main-blog container mx-auto my-12">
-        <div class="header-blog-post  mb-4">
+        <div
+          class="header-blog-post  mb-4"
+          data-aos="fade-right"
+          data-aos-delay="500"
+          data-aos-once="true"
+        >
           <h2>
             وبلاگ ما
           </h2>
@@ -13,7 +18,12 @@
             پیشرفت چشمگیر در بیزینس به واسطه سایت نیکوبیت
           </p>
         </div>
-        <div class="postarea-blog-post ">
+        <div
+          class="postarea-blog-post "
+          data-aos="fade-right"
+          data-aos-delay="500"
+          data-aos-once="true"
+        >
           <img
             class="mx-auto w-full mb-12"
             src="../assets/images/blog/post.jpg"
@@ -21,7 +31,12 @@
           />
         </div>
         <div class="blog-post-wrapper inline-flex">
-          <div class="blog-details w-2/3 ml-5">
+          <div
+            class="blog-details ml-5 sm:w-full px-8 md:w-2/3 "
+            data-aos="fade-up"
+            data-aos-delay="500"
+            data-aos-once="true"
+          >
             <div class="header-blog-post-wrapper">
               <h2>
                 ارتباطات اکوسیستم بیت کوین راه تضعیف میکند.
@@ -74,13 +89,18 @@
             </div>
             <LeaveComment></LeaveComment>
           </div>
-          <div class="w-1/3 text-right text-gray-600">
+          <div
+            class="w-1/3 text-right text-gray-600"
+            data-aos="fade-down"
+            data-aos-delay="500"
+            data-aos-once="true"
+          >
             <LeftWrapper></LeftWrapper>
           </div>
         </div>
       </div>
-      <Footer></Footer>
     </div>
+    <Footer></Footer>
   </div>
 </template>
 
