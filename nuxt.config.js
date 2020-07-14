@@ -29,7 +29,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '@/plugins/vuesax',
+    "@/plugins/vuesax.js",
     //'@/plugins/vue-scrollto',
     { src: "@/plugins/aos", ssr: false },
     /*{ src: '@/plugins/VueFlickity.js', ssr: false },
