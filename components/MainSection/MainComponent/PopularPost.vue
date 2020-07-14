@@ -4,7 +4,6 @@
       <!-- <vs-divider/> -->
     <div class="w-full pt-6 block md:flex justify-between">
       <PMainCard/>
-      <PMainCard/>
       <div class="md:w-2/3 pr-2">
         <PSmallCard/>
         <PSmallCard class="mt-2"/>
@@ -13,6 +12,7 @@
       </div>
       <!-- <div class="w-1/3"></div> -->
     </div>
+    
   </div>
 </template>
 

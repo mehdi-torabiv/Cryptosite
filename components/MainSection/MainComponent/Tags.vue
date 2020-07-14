@@ -1,7 +1,9 @@
 <template>
-  <div  data-aos="fade-right"
-        data-aos-delay="500"
-        data-aos-once="true">
+  <div data-aos="fade-right"
+       data-aos-delay="500"
+       data-aos-once="true"
+       @click="GoToPage()"
+      >
       <h2 class="pb-2 text-right">برچسب ها</h2>
       <hr class="pb-2">
       <ul class="text-right ">  
@@ -30,7 +32,12 @@ export default {
         {id:3,title:"بلاکچین"}
       ]
     }
-  }
+  },
+  methods:{
+        GoToPage(){
+            this.$router.push('blog-post')
+        }
+    }
 }
 </script>
 

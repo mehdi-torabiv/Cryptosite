@@ -1,5 +1,5 @@
 <template>
-  <div class="w-1/3 post">
+  <div class="w-1/3 post" @click="GoToPage()">
       <div class="header overflow-hidden">
           <img src="@/assets/images/crypto.jpg" class="overflow-hidden" alt="">
       </div>
@@ -27,7 +27,11 @@
 
 <script>
 export default {
-
+    methods:{
+        GoToPage(){
+            this.$router.push('/blog-post')
+        }
+    }
 }
 </script>
 

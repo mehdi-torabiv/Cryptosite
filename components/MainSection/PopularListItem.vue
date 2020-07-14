@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="popularItems" @click="GoToPage()">
       <div class="flex pb-6 items-center">
       <div class="header">
           <img src="@/assets/images/crypto.jpg" class="sm: md:" alt="">
@@ -18,11 +18,18 @@
 
 <script>
 export default {
-
+    methods:{
+        GoToPage(){
+            this.$router.push('blog-post')
+        }
+    }
 }
 </script>
 
 <style scoped>
+.popularItems:hover{
+    cursor: pointer;
+}
 .header > img{
     width: 100px;
     height: 75px;
